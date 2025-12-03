@@ -1,0 +1,21 @@
+.selectCustom {
+    .MuiOutlinedInput-notchedOutline {
+        border: none;
+    }
+}
+
+.selectCustom:hover {
+    .MuiOutlinedInput-notchedOutline {
+        border: none;
+        height: 42px;
+        margin-top: 1px;
+    }
+}
+
+.selectCustom2 {
+    .MuiOutlinedInput-notchedOutline {
+        border: none;
+        height: 42px;
+        margin-top: 1px;
+    }
+}

@@ -1,0 +1,328 @@
+{
+	"columns": [
+		{
+			"headerClass": "ag-grid product-info-column serial-col even",
+			"groupId": "No.",
+			"headerName": "",
+			"editable": false,
+			"filter": false,
+			"pinned": "left",
+			"menuTabs": [],
+			"width": 150,
+			"rowDrag": true ,
+			"suppressMovable": true,
+			"sortable": false,
+			"resizable": false,
+			"spanHeaderHeight": true,
+			"lockPinned": true,
+			"field": "delete",
+			"dtype": "delete",
+			"cellStyle": {
+				"padding": "0 0 0 5%"
+			},
+			"valueGetter": "node.rowIndex + 1",
+			"checkboxSelection": true,
+			"headerCheckboxSelection": true,
+			"headerCheckboxSelectionFilteredOnly": true
+		},
+		{
+			"headerName": "Product Id",
+			"field": "productId",
+			"cellStyle": {},
+			"headerStyle": {},
+			"pinned": "left",
+			"isVisible": true,
+			"dtype": "text",
+			"filterParams": [
+				{
+					"values": []
+				}
+			],
+			"editable": true
+		},
+		{
+			"headerName": "Category",
+			"field": "category",
+			"cellStyle": {},
+			"headerStyle": {},
+			"pinned": "left",
+			"dtype": "category",
+			"isVisible": true,
+			"editable": true
+		},
+		{
+			"headerName": "Image",
+			"field": "image",
+			"headerStyle": {},
+			"cellStyle": {},
+			"pinned": "left",
+			"visibility": true,
+			"dtype": "image",
+			"filterValues": [],
+			"editable": true
+		},
+		{
+			"headerName": "Image Text",
+			"field": "imageText",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "imageText",
+			"filterValues": [],
+			"editable": true,
+			"default_map": [
+				{
+					"label": "One",
+					"value": "One",
+					"src":"https://st.depositphotos.com/2680101/3171/i/450/depositphotos_31714403-stock-photo-ree-in-the-shape-of.jpg"
+				},
+				{
+					"label": "Two",
+					"value": "Two",
+					"src":"https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk="
+				}
+			]
+		},
+		{
+			"headerName": "Text",
+			"field": "text",
+			"cellStyle": {},
+			"headerStyle": {},
+			"isVisible": true,
+			"dtype": "text",
+			"filterParams": [
+				{
+					"values": []
+				}
+			],
+			"editable": true
+		},
+		{
+			"headerName": "Tags",
+			"field": "tags",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "tags",
+			"filterValues": [],
+			"editable": true,
+			"default_map": ["Tag1", "Tag2", "Tag3"]
+		},
+		{
+			"headerName": "Text Area",
+			"field": "textarea",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "textarea",
+			"filterValues": [],
+			"editable": true
+		},
+		{
+			"headerName": "Date",
+			"field": "date",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "date",
+			"filterValues": [],
+			"editable": true
+		},
+		{
+			"headerName": "Single Select",
+			"field": "singleSelect",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "singleSelect",
+			"filterValues": [],
+			"editable": true,
+			"default_map": [
+				{
+					"label": "One",
+					"value": "One"
+				},
+				{
+					"label": "Two",
+					"value": "Two"
+				},
+				{
+					"label": "Three",
+					"value": "Three"
+				},
+				{
+					"label": "Four",
+					"value": "Four"
+				},
+				{
+					"label": "Five",
+					"value": "Five"
+				}
+			]
+		},
+		{
+			"headerName": "Multi Select",
+			"field": "multiSelect",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "multiSelect",
+			"filterValues": [],
+			"editable": true,
+			"default_map": ["One", "Two", "Three", "Four", "Five", "Six"]
+		},
+		{
+			"headerName": "Size",
+			"field": "size",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "size",
+			"filterValues": [],
+			"editable": true,
+			"marryChildren": true,
+			"headerClass": "custom-header",
+			"children": [
+				{
+					"name": "length",
+					"visible": true,
+					"field": "length",
+					"attribute_id": 87094,
+					"dtype": "size",
+					"compositeKey": "length",
+					"is_composite": true,
+					"is_internal": false,
+					"editable": true
+				},
+				{
+					"name": "Height",
+					"visible": true,
+					"dtype": "size",
+					"field": "height",
+					"compositeKey": "height",
+					"is_composite": true,
+					"is_internal": false,
+					"editable": true
+				},
+				{
+					"name": "Width",
+					"visible": true,
+					"field": "width",
+					"dtype": "size",
+					"is_composite": true,
+					"is_internal": false,
+					"editable": true,
+					"compositeKey": "width"
+				},
+				{
+					"name": "unit",
+					"visible": true,
+					"dtype": "size",
+					"field": "unit",
+					"compositeKey": "unit",
+					"is_composite": true,
+					"is_internal": false,
+					"editable": true,
+					"default_map": [
+						{
+							"label": "Inches",
+							"value": "inches"
+						},
+						{
+							"label": "Meter",
+							"value": "meter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"headerName": "UOM",
+			"field": "uom",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "uom",
+			"filterValues": [],
+			"editable": true,
+			"children": [
+				{
+					"name": "uom_value",
+					"visible": true,
+					"field": "uom_value",
+					"headerName": "Value",
+					"dtype": "uom",
+					"compositeKey": "value",
+					"editable": true
+				},
+				{
+					"name": "uom_unit",
+					"visible": true,
+					"field": "uom_unit",
+					"headerName": "Unit",
+					"dtype": "uom",
+					"compositeKey": "unit",
+					"editable": true,
+					"default_map": [
+						{
+							"label": "Inches",
+							"value": "inches"
+						},
+						{
+							"label": "Meter",
+							"value": "meter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"headerName": "URL",
+			"field": "url",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "url",
+			"filterValues": [],
+			"editable": true
+		},
+		{
+			"headerName": "HTML",
+			"field": "html",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "html",
+			"filterValues": [],
+			"editable": true
+		},
+		{
+			"headerName": "Number",
+			"field": "number",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "number",
+			"filterValues": [],
+			"editable": true,
+			"headerComponentFramework": "CustomHeader"
+		},
+		{
+			"headerName": "Decimal",
+			"field": "decimal",
+			"headerStyle": {},
+			"cellStyle": {},
+			"visibility": true,
+			"dtype": "decimal",
+			"filterValues": [],
+			"editable": true
+		},
+		{
+			"headerName": "Action",
+			"field": "action",
+			"editable": false,
+			"filter": false,
+			"dtype": "action"
+		}
+	]
+}

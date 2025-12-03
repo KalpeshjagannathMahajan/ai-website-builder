@@ -1,0 +1,38 @@
+.accordion_layout {
+	margin-top: 1em !important;
+	border-radius: 8px !important;
+}
+
+.accordion_details {
+	border-radius: 8px !important;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.red-dot {
+	height: 0.5em;
+	width: 0.5em;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.5em;
+	margin-bottom: 0.1em;
+}
+.selected_filter_container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.selected_filter {
+	font-size: 1.4rem;
+	max-width: 26rem;
+	overflow: hidden;
+	white-space: nowrap;
+}
+@media (max-width: 600px) {
+	.selected_filter {
+		max-width: 20ch;
+	}
+}
+.more_selected {
+	font-size: 1.4rem;
+}

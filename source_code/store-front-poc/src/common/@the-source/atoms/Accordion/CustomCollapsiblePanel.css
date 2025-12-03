@@ -1,0 +1,9 @@
+.toggle_section {
+  cursor: pointer;
+}
+
+.content_parent_section {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.3s;
+}

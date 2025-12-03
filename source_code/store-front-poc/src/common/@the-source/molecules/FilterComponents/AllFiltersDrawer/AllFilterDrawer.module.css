@@ -1,0 +1,27 @@
+.buttonContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttonAlignmentContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.drawerFooterContainer {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding: 1.6rem 2rem;
+}
+
+
+.filterDrawerHeader {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

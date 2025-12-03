@@ -1,0 +1,80 @@
+.modalStyle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+	padding: 2rem 0rem;
+	z-index: 10001;
+	align-items: center;
+	display: flex;
+	background: #bdbdbd;
+	justify-content: center;
+	overflow: hidden;
+	width: 480px;
+	height: 525px;
+}
+
+.container {
+	position: relative;
+	width: 480px;
+	height: 525px;
+	background-color: #f7f8fa;
+}
+
+.circle1 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -44%);
+	width: 640px;
+	height: 525px;
+	border-radius: 50%;
+	background: #f7f8fa;
+	box-shadow: 0px 0px 24.381px 0px rgba(0, 0, 0, 0.08);
+}
+
+.circle2 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 640px;
+	height: 525px;
+	border-radius: 50%;
+	border: 2.884px solid rgba(0, 0, 0, 0.04);
+	background: #fff;
+	box-shadow: 0px 0px 46.145px 0px rgba(0, 0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.contentGrid {
+	display: flex;
+	width: 480px;
+	height: 500px;
+	padding: 10px 20px 0 20px;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.closeIconGrid {
+	display: flex;
+	justify-content: flex-end;
+	width: 440px;
+}
+
+.bottomGrid {
+	padding-top: 330px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	margin: 0 30px;
+	align-items: center;
+}

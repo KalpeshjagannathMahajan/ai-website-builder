@@ -1,0 +1,22 @@
+.preview_selector {
+	position: absolute;
+	right: 3vw;
+	margin-top: 9px;
+	display: flex;
+	flex-direction: row;
+	z-index: 10001;
+}
+
+.loader_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	flex-direction: column;
+}
+
+.preview_switcher {
+	background: #fff;
+	height: 48px;
+	width: 240px;
+}

@@ -1,0 +1,86 @@
+.chevronIcon {
+	width: 2.4rem;
+	height: 2.4rem;
+}
+
+.LeftChevron {
+	z-index: 2;
+	margin-right: '-5rem';
+}
+.category_left_chevron {
+	z-index: 2;
+	margin-right: '-5rem';
+	padding-bottom: 40px;
+}
+
+.headerImage {
+	width: 60px !important;
+	height: 60px !important;
+	border-radius: 10rem !important;
+}
+
+.RightChevron {
+	margin-left: '-5rem';
+	z-index: 2;
+}
+.category_right_chevron {
+	margin-left: '-5rem';
+	z-index: 2;
+	padding-bottom: 40px;
+}
+
+.AllProductIcon {
+	height: 2.8rem;
+	width: 2.8rem;
+	padding: 1.6rem;
+	border-radius: 10rem;
+}
+
+.SubCategoryChip {
+	cursor: pointer !important;
+	border: none !important;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	height: 3rem;
+	border-radius: 2rem;
+	margin: 0.8rem 0.4rem;
+}
+
+.SelectedSubCategoryChip {
+	cursor: pointer !important;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	height: 3rem;
+	border-radius: 2rem;
+	margin: 0.8rem 0.4rem;
+}
+
+.SelectedCategory {
+	cursor: pointer;
+	border-bottom: 2px solid #16885f;
+}
+
+.Category {
+	cursor: pointer;
+	margin: 0px 8px;
+	width: 100px;
+}
+@media (max-width: 600px) {
+	.Category {
+		width: 50px;
+		display: flex;
+		align-items: center;
+	}
+	.category_right_chevron {
+		padding-bottom: 20px;
+	}
+	.category_left_chevron {
+		padding-bottom: 20px;
+	}
+	.headerImage {
+		width: 40px !important;
+		height: 40px !important;
+	}
+}

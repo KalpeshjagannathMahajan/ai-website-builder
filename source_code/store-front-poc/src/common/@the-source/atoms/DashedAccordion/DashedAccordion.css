@@ -1,0 +1,21 @@
+.dashed-accordion > .MuiAccordion-root:before {
+	height: 0 !important;
+}
+
+.dashed-accordion-box-shadow.MuiPaper-root.MuiAccordion-root:first-of-type {
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+.dashed-accordion-box-shadow:first-child {
+	border-top: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+.dashed-accordion-dashed-border {
+	margin-bottom: -6px;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.12) !important;
+}
+
+.dashed-accordion-dashed-border.Mui-expanded {
+	border-bottom: none !important;
+}

@@ -1,0 +1,402 @@
+const actions = [
+	{
+		name: 'Edit',
+		action: 'edit',
+		icon: 'IconEdit',
+		key: 'edit',
+	},
+	{
+		name: 'Delete',
+		action: 'delete',
+		icon: 'IconTrash',
+		key: 'delete',
+	},
+];
+
+export const columnData = {
+	columns: [
+		{
+			headerClass: 'ag-grid product-info-column serial-col even',
+			groupId: 'No.',
+			headerName: '',
+			editable: false,
+			filter: false,
+			pinned: 'left',
+			menuTabs: [],
+			cellStyle: {
+				border: 'none',
+				borderRadius: '0px',
+				background: 'transparent',
+				width: 50,
+			},
+			width: 50,
+			suppressMovable: true,
+			sortable: false,
+			resizable: false,
+			spanHeaderHeight: true,
+			suppressMenu: true,
+			// field: 'delete',
+			// type: 'delete',
+			// dtype: 'delete',
+			valueGetter: 'node.rowIndex + 1',
+			// rowDrag: true,
+			// checkboxSelection: true,
+			// headerCheckboxSelection: true,
+			// headerCheckboxSelectionFilteredOnly: true,
+			// suppressSizeToFit: true,
+			// autoSize: true,
+		},
+		{
+			headerName: 'Product Id',
+			field: 'productId',
+			headerStyle: {},
+			pinned: 'left',
+			isVisible: true,
+			sortable: false,
+			filter: true,
+			filterParams: [
+				{
+					values: [],
+				},
+			],
+			editable: true,
+		},
+		// {
+		// 	headerName: 'Status',
+		// 	field: 'status',
+		// 	dtype: 'status',
+		//
+		// 	headerStyle: {},
+		// 	pinned: 'left',
+		// },
+		// {
+		// 	headerName: 'Category',
+		// 	field: 'category',
+		//
+		// 	headerStyle: {},
+		// 	pinned: 'left',
+		// 	dtype: 'category',
+		// 	isVisible: true,
+		// 	editable: true,
+		// },
+		// {
+		// 	headerName: 'Image',
+		// 	field: 'image',
+		// 	headerStyle: {},
+		//
+		// 	pinned: 'left',
+		// 	visibility: true,
+		// 	dtype: 'image',
+		// 	filterValues: [],
+		// 	editable: true,
+		// },
+		// {
+		// 	headerName: 'Image Text',
+		// 	field: 'imageText',
+		// 	headerStyle: {},
+		//
+		// 	visibility: true,
+		// 	dtype: 'imageText',
+		// 	filterValues: [],
+		// 	editable: true,
+		// 	default_map: [
+		// 		{
+		// 			label: 'One',
+		// 			value: 'One',
+		// 			src: 'https://st.depositphotos.com/2680101/3171/i/450/depositphotos_31714403-stock-photo-ree-in-the-shape-of.jpg',
+		// 		},
+		// 		{
+		// 			label: 'Two',
+		// 			value: 'Two',
+		// 			src: 'https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=',
+		// 		},
+		// 	],
+		// },
+		{
+			headerName: 'Text',
+			field: 'text',
+			resizable: true,
+
+			headerStyle: {},
+			isVisible: true,
+			dtype: 'text',
+			sortable: true,
+			filterParams: {
+				buttons: ['reset', 'apply'],
+			},
+			editable: true,
+		},
+		{
+			headerName: 'Tags',
+			field: 'tags',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'tags',
+			sortable: true,
+			filterValues: [],
+			editable: true,
+			default_map: ['Tag1', 'Tag2', 'Tag3'],
+		},
+		{
+			headerName: 'Text Area',
+			field: 'textarea',
+			headerStyle: {},
+			resizable: true,
+
+			visibility: true,
+			dtype: 'textarea',
+			filterValues: [],
+			editable: true,
+		},
+		{
+			headerName: 'Date',
+			field: 'date',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'date',
+			filterValues: [],
+			editable: true,
+		},
+		{
+			headerName: 'Single Select',
+			field: 'singleSelect',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'singleSelect',
+			filterValues: [],
+			editable: true,
+			default_map: [
+				{
+					label: 'One',
+					value: 'One',
+				},
+				{
+					label: 'Two',
+					value: 'Two',
+				},
+				{
+					label: 'Three',
+					value: 'Three',
+				},
+				{
+					label: 'Four',
+					value: 'Four',
+				},
+				{
+					label: 'Five',
+					value: 'Five',
+				},
+			],
+		},
+		{
+			headerName: 'Multi Select',
+			field: 'multiSelect',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'multiSelect',
+			filterValues: [],
+			editable: true,
+			default_map: ['One', 'Two', 'Three', 'Four', 'Five', 'Six'],
+		},
+		{
+			headerName: 'Size',
+			field: 'size',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'size',
+			filterValues: [],
+			editable: true,
+			marryChildren: true,
+			headerClass: 'custom-header',
+			children: [
+				{
+					name: 'length',
+					visible: true,
+					field: 'length',
+					attribute_id: 87094,
+					dtype: 'size',
+					compositeKey: 'length',
+					is_composite: true,
+					is_internal: false,
+					editable: true,
+				},
+				{
+					name: 'Height',
+					visible: true,
+					dtype: 'size',
+					field: 'height',
+					compositeKey: 'height',
+					is_composite: true,
+					is_internal: false,
+					editable: true,
+				},
+				{
+					name: 'Width',
+					visible: true,
+					field: 'width',
+					dtype: 'size',
+					is_composite: true,
+					is_internal: false,
+					editable: true,
+					compositeKey: 'width',
+				},
+				{
+					name: 'unit',
+					visible: true,
+					dtype: 'size',
+					field: 'unit',
+					compositeKey: 'unit',
+					is_composite: true,
+					is_internal: false,
+					editable: true,
+					default_map: [
+						{
+							label: 'Inches',
+							value: 'inches',
+						},
+						{
+							label: 'Meter',
+							value: 'meter',
+						},
+					],
+				},
+			],
+		},
+		{
+			headerName: 'UOM',
+			field: 'uom',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'uom',
+			filterValues: [],
+			editable: true,
+			children: [
+				{
+					name: 'uom_value',
+					visible: true,
+					field: 'uom_value',
+					headerName: 'Value',
+					dtype: 'uom',
+					compositeKey: 'value',
+					editable: true,
+				},
+				{
+					name: 'uom_unit',
+					visible: true,
+					field: 'uom_unit',
+					headerName: 'Unit',
+					dtype: 'uom',
+					compositeKey: 'unit',
+					editable: true,
+					default_map: [
+						{
+							label: 'Inches',
+							value: 'inches',
+						},
+						{
+							label: 'Meter',
+							value: 'meter',
+						},
+					],
+				},
+			],
+		},
+		{
+			headerName: 'URL',
+			field: 'url',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'url',
+			filterValues: [],
+			editable: true,
+		},
+		{
+			headerName: 'HTML',
+			field: 'html',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'html',
+			filterValues: [],
+			editable: true,
+		},
+		{
+			headerName: 'Number',
+			field: 'number',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'number',
+			filterValues: [],
+			editable: true,
+			headerComponentFramework: 'CustomHeader',
+		},
+		{
+			headerName: 'Decimal',
+			field: 'decimal',
+			headerStyle: {},
+
+			visibility: true,
+			dtype: 'decimal',
+			filterValues: [],
+			editable: true,
+		},
+		{
+			headerName: 'Action',
+			field: 'action',
+			editable: false,
+			filter: false,
+			dtype: 'action',
+			cellStyle: {
+				border: 'none',
+				borderRadius: '0px',
+				background: 'transparent',
+			},
+			suppressMenu: true,
+			actions: {
+				actions: actions.map((action) => ({
+					...action,
+					onClick: (params: any) => {
+						console.log(`${action.name} clicked for row`, params);
+					},
+				})),
+				type: 'action',
+			},
+		},
+		// {
+		// 	headerName: 'Dealer Price',
+		// 	field: 'price',
+		// 	visibility: false,
+		// 	marryChildren: true,
+		// 	headerClass: 'custom-header',
+		// 	editable: true,
+		// 	children: [
+		// 		{
+		// 			field: 'price',
+		// 			fieldId: 'price',
+		// 			dtype: 'price',
+		// 			compositeKey: 'price',
+		// 			editable: true,
+		// 		},
+		// 		{
+		// 			field: 'Bulk Pricing',
+		// 			fieldId: 'bulkPricing',
+		// 			isDisabled: true,
+		// 			dtype: 'table',
+		// 			headerClass: 'custom-header',
+		// 			compositeKey: 'bulkPricing',
+		// 			autoHeight: true,
+		// 			editable: true,
+		// 			wrapText: true,
+		// 		},
+		// 	],
+		// },
+	],
+};

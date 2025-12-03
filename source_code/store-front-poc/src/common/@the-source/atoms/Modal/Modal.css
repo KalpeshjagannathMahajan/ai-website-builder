@@ -1,0 +1,23 @@
+.modal_header_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 0rem 2rem;
+}
+.modal_title{
+    max-width: 80%;
+    font-size: 16px;
+}
+.modal_content_container {
+    padding: 1.5rem 2rem;
+    overflow-y: scroll;
+}
+
+.modal_content_container::-webkit-scrollbar {
+	display: none;
+}
+
+.modal_footer_container {
+    margin-top: 1.5rem;
+    padding: 0rem 2rem;
+}

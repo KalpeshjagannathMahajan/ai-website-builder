@@ -1,0 +1,117 @@
+.container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	/* overflow: auto; */
+	justify-content: center;
+	background: linear-gradient(170.8deg, #e8f3ef 6.97%, #eff7e0 123.36%);
+}
+.containerStorefront{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	/* overflow: auto; */
+	justify-content: center;
+	background: white;
+}
+.logoUltron {
+	height: 34px;
+	width: auto;
+}
+.logoStorefront {
+	height: 47px;
+	width: auto;
+}
+
+.layout {
+	display: flex;
+	max-width: 580px;
+	align-items: center;
+	margin: 4.8rem;
+	justify-content: center;
+	background: #ffffff;
+	border-radius: 1.6rem;
+}
+.innerContainer {
+	justify-content: center;
+	width: 100%;
+	padding: 8rem;
+}
+.storefront_inner_container {
+	justify-content: center;
+	width: 100%;
+	/* padding: 8rem; */
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.6rem;
+	width: 100%;
+}
+.footerStorefront{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 100%;
+}
+.forgotPasswordGrid {
+	margin-top: 1.6rem;
+}
+.forgotPasswordStorefrontGrid {
+	margin-top: 7px;
+	justify-content: end;
+	cursor: pointer;
+	&:hover {
+        text-decoration: underline;
+    }
+}
+
+.companyLogo {
+	margin-bottom: 0.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginBtnGrid {
+	width: 100%;
+	margin-top: 7.2rem;
+}
+
+.loginBtnStorefrontGrid {
+	width: 100%;
+	margin-top: 32px;
+}
+.storefrontSignup{
+
+	font-weight:700;
+	font-size:14px;
+	cursor: pointer;
+	&:hover{
+		text-decoration: underline;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.innerContainer {
+		padding: 6.4rem 8rem;
+	}
+	.layout {
+		margin: 2.4rem;
+	}
+}
+@media (min-width: 768px) {
+	.storefront_inner_container{
+		padding: 8rem;
+	}
+}
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+	background: white;
+	margin: 4px;
+	padding: 13px;
+	z-index: 0;
+}

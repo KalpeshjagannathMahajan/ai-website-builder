@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="/logo_icon.png" />
+	<link rel="apple-touch-icon" href="/logo_icon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>WizCommerce</title>
+	<link rel="stylesheet" type="text/css" href="/src/App.css" />
+	<link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" defer>
+	<script src="https://frontend-bucket.vercel.app/stax-js-wiz.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.14/lottie_light.min.js" defer></script>
+	<script type="text/javascript" src="https://js.finix.com/v/1/finix.js"></script>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFhfNvYLii46bGAcwf0y5p0yU8G4lOXww&libraries=places"
+		defer></script>
+    <script src="https://api.pcivault.io/pcd/pcd_form.js"></script>	
+	<style>
+		#loading {
+			position: fixed;
+			width: 100%;
+			height: calc(100vh - 50px);
+			display: none;
+			align-items: center;
+			justify-content: center;
+			background: rgb(255, 255, 255);
+			z-index: 9999;
+		}
+
+		#loading-animation {
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="loading">
+		<div id="loading-animation"></div>
+	</div>
+	<div id="root"></div>
+	<script type="module">
+		const is_store_front = import.meta.env.VITE_APP_REPO === 'store_front';
+		const show_loader = document.getElementById('loading')
+		if (is_store_front && show_loader) {
+			show_loader.style.display = 'flex'
+			document.addEventListener('DOMContentLoaded', function () {
+				lottie.loadAnimation({
+					container: document.getElementById('loading-animation'),
+					renderer: 'svg',
+					loop: true,
+					autoplay: true,
+					path: 'src/assets/animations/aeroplane_animation.json',
+				});
+			});
+		}
+	</script>
+	<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

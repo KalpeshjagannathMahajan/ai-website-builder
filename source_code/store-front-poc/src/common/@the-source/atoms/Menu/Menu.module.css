@@ -1,0 +1,7 @@
+.chipDropdown :hover {
+	background-color: none;
+}
+
+.buttonLabel :hover {
+	background-color: none !important;
+}

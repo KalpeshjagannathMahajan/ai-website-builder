@@ -1,0 +1,38 @@
+{
+    "document_invoices": {
+        "INV-11785": {
+            "invoice_id": "INV-11785",
+            "date": "08/28/2023",
+            "amount": "$ 1500",
+            "payment_status": "Paid",
+            "payment_received": "$ 1000",
+            "payment_due": "$ 500"
+        },
+        "INV-11786": {
+            "invoice_id": "INV-11786",
+            "date": "08/28/2023",
+            "amount": "$ 500",
+            "payment_status": "Payment pending",
+            "payment_received": "$ 0",
+            "payment_due": "$ 500"
+        }
+    },
+    "document_payments": {
+        "PAY-11785": {
+            "payment_id": "PAY-11785",
+            "invoice_id": "INV-11785",
+            "date": "08/28/2023",
+            "amount": "$ 1500",
+            "payment_status": "Paid",
+            "payment_method": "Card"
+        },
+        "PAY-11786": {
+            "payment_id": "PAY-11786",
+            "invoice_id": "INV-11786",
+            "date": "08/28/2023",
+            "amount": "$ 500",
+            "payment_status": "Payment pending",
+            "payment_method": "Cash"
+        }
+    }
+}

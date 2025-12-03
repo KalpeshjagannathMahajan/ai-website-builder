@@ -1,0 +1,75 @@
+.container {
+	background: white;
+	width: 100%;
+	border-radius: 1em;
+	padding: 1em 2em;
+}
+
+.agGridCustomCell {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 0.2rem;
+	cursor: pointer;
+}
+
+.agGridCustomImageCell {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 0.2rem;
+	cursor: pointer;
+}
+.agGridCustomImageCell:hover {
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 14px;
+}
+.agGridCustomTextCell:hover {
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.imageStyle {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+	border-radius: 8px;
+	cursor: pointer;
+	position: relative;
+}
+
+.iconStyle {
+	margin-left: auto;
+	padding: 10px 10px 0px 0px;
+	cursor: pointer;
+}
+
+.imageIcon {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	margin-left: 15px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.imageIcon:hover {
+	opacity: 1;
+}
+
+.agGridCustomCellHyperLink {
+	color: inherit;
+	text-decoration: inherit;
+}

@@ -1,0 +1,31 @@
+.category-filter-box {
+	display: inline-flex;
+	white-space: nowrap;
+	padding: 0.75em 0.75em;
+	cursor: pointer;
+}
+
+.category-filter-box::-webkit-scrollbar {
+	display: none; /* Hide the scrollbar for WebKit-based browsers (e.g., Chrome, Safari) */
+}
+
+.red-dot {
+	height: 0.5em;
+	width: 0.5em;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.5em;
+	margin-bottom: 0.1em;
+}
+
+.bottom-button-container {
+	position: sticky;
+	bottom: 0;
+	padding: 0.5em 1em 1em;
+}
+
+.category_filter_label{
+	height: auto;
+	display: flex;
+	align-items: center;
+}

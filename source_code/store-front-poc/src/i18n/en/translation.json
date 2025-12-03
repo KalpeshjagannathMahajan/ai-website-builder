@@ -1,0 +1,1573 @@
+{
+	"AuthFlow": {
+		"Login": {
+			"Email": "Email",
+			"Login": "Login",
+			"Continue": "Continue",
+			"Password": "Password",
+			"BookDemo": "Book a Demo",
+			"Signup": "Sign up",
+			"ForgotPassword": "Forgot Password?",
+			"NewToCompany": "New to {{Company}}?",
+			"DontHaveAccount": "Don't have an account?",
+			"ErrorInvalidCredentials": "Unable to login with provided credentials",
+			"ErrorEmptyField": "Fields cannot be empty",
+			"ErrorInvalidEmail": "Email is not valid",
+			"EmailNotValid": "Email ID is not valid",
+			"EmailVerify": "Please Verify Email Id Field",
+			"PasswordVerify": "Please Verify Password Field",
+			"CompanyDescription": "Crafting digital experiences for B2B sales & sourcing",
+			"Success": "Successfully logged in",
+			"LoginToStorefront": "Login to Storefront",
+			"LoginTo": "Login to {{Company}}",
+			"GetUpdates": "Get exclusive updates about product launches, sales and more!",
+			"companyTagLine": "<div>To get started, choose an option to sign up </div>"
+		},
+		"Validation": {
+			"Warning": "Warning: A user with this email ID already exists.",
+			"PublishUser": "A user with this email ID already exists. If you've forgotten your password, you can reset it",
+			"Here": "here",
+			"SignIn": "to sign in.",
+			"InactiveUser": "A user with this email ID already exists. You can access the account once you are activated by the admin.",
+			"InvitedUser": "You're already invited to join us! To access your account, please reset your password using the link",
+			"Support": "if you need support",
+			"OpenLead": "We've received your registration—thanks for signing up! Our team is reviewing your details and will get back to you shortly"
+		},
+		"MultiTenant": {
+			"ChooseCompany": "Choose a company",
+			"SetDefault": "Automatically go to this company when I login"
+		},
+		"ForgotPassword": {
+			"Email": "Email",
+			"EmailNotValid": "Email ID is not valid",
+			"StillFacingIssue": "If you are still facing issues to reset your password ",
+			"ReachOutTo": "reach out to",
+			"BackToLogin": "Back to Login",
+			"Success": "Successfully sent password reset mail",
+			"SupportEmail": "help@wizcommerce.com"
+		},
+		"ResetPassword": {
+			"text": "text",
+			"password": "password",
+			"Password": "Password",
+			"Cancel": "Cancel",
+			"ConfirmPassword": "Confirm Password",
+			"StillFacingIssue": "If you are still facing issues to reset your password ",
+			"ReachOutTo": "reach out to",
+			"ResetPassword": "Reset Password",
+			"CurrentPassword": "Current Password",
+			"ChangePassword": "Change Password",
+			"ChangePasswordBody": "You will be logged out from all the devices after changing your password. Please log in again to continue shopping.",
+			"ResetDescription": "Create a new password to login and get access to the website",
+			"EmptyPasswordErrorMessage": "Password field is empty",
+			"EmptyConfirmPasswordErrorMessage": "Confirm password field is empty",
+			"PasswordNotMatch": "Passwords are not same",
+			"PasswordNotValid": "Password is not in valid format",
+			"PasswordLength": "Password should be of minimum 8 characters",
+			"ErrorUnableToReset": "Unable to reset password for this email",
+			"NewPassword": "New Password",
+			"Success": "Password changed please go to the login screen",
+			"PasswordResetSuccessful": "Your password has been reset successfully",
+			"LoginWithNew": "Login with new password",
+			"SupportEmail": "help@wizcommerce.com"
+		},
+		"StartTrial": {
+			"RequestSubmittedTitle": "Trial request submitted",
+			"RequestSubmittedSubtitle": "Your request has been submitted successfully",
+			"SomethingWentWrong": "Something went wrong"
+		}
+	},
+	"Counter": {
+		"ModalCancelButton": " Cancel",
+		"ModalDoneButton": "Done",
+		"ModalTitle": "Enter quantity",
+		"Suggested": "Suggested Quantity: {{suggestedQuantity}}",
+		"Error": {
+			"MinimumQuantity": "Entered quantity is lower than MOQ ({{min}})",
+			"MaximumQuantity": "Quantity exceeds {{from_max}} ({{max}})",
+			"NotValidQuantity": "Valid quantities are {{suggestedFormat}} ",
+			"InvalidQuantity": "Quantity entered is not valid for this product"
+		},
+		"ErrorToast": {
+			"Status": "warning",
+			"Title": "You have reached stock limit",
+			"Subtitle": "please add quantity with in inventory limit"
+		},
+		"ErrorToastInvalid": {
+			"Status": "error",
+			"Title": "In stock quantity is less than minimum order quantity",
+			"Subtitle": "Please add any other product"
+		},
+		"WarningToast": {
+			"Status": "warning",
+			"Title": "In-stock quantity left is lower than the incremental order quantity you're adding",
+			"Subtitle": ""
+		}
+	},
+	"FreeTrial": {
+		"Title": "Sign up for a free trial",
+		"SubTitle": "You will receive an email with the demo account credentials",
+		"ConfirmTitle": "Credentials sent to your inbox!",
+		"ConfirmSubTitle": "Open your email inbox to access the account credentials for Wizshop"
+	},
+	"BuyerDashboard": {
+		"Main": {
+			"CreateOrder": "Create Order",
+			"Analytics": "Analytics",
+			"RecentOrders": "Recent orders ({{count}})",
+			"StartOrdering": "Start creating orders now!",
+			"Explore": "Explore products and make your first sale today"
+		},
+		"BuyerList": {
+			"AllCustomers": "All Customers",
+			"CreateBuyer": "Create Customer",
+			"StartCreating": "Create new customers",
+			"BuyersNotFound": "No customers found"
+		},
+		"SelectBuyerPanel": {
+			"SelectBuyer": "Select a customer",
+			"SwitchedBuyer": "Switched to {{BuyerName}}",
+			"CustomerSwitchedSuccess": "Customer switched",
+			"ActiveCart": "{{BuyerName}} has an existing cart",
+			"AssignCartToBuyer": "Assign Cart to {{BuyerName}}",
+			"ShowExisting": "Keep existing",
+			"NewCart": "New Cart",
+			"Replace": "Replace",
+			"AssignCart": "Assign Cart",
+			"ShowingBuyers_one": "Showing {{buyerCount}} customer",
+			"ShowingBuyers_other": "Showing {{buyerCount}} customer",
+			"DiscardPrevAndAssign?": "You can choose to keep the existing cart or replace it with this one",
+			"AssignCartToBuyer?": "You can choose to assign this cart or start a new one for this customer ",
+			"AlertMessage": "Products and prices will update according to the catalog assigned to the customer",
+			"Duplicate": "Duplicate {{type}}",
+			"SelectCustomer": "Select customer against which you want to create a duplicate {{type}}",
+			"LeadNewCustomer": "Do you think this is a new customer?"
+		},
+		"Stats": {
+			"ShowingOrders_one": "{{ordersCount}} order",
+			"ShowingOrders_other": "{{ordersCount}} orders",
+			"ShowingQuotes_one": "{{quotesCount}} quote",
+			"ShowingQuotes_other": "{{quotesCount}} quotes"
+		},
+		"BuyerCard": {
+			"AddBuyer": "Add new customer",
+			"AddDetails": "Quick add details of new customer",
+			"GuestBuyer": "Guest Customer",
+			"ViewAsGuest": "View products as a guest",
+			"AllBuyers": "All customers",
+			"TypeofCustomer": "Type of Customer: {{CustomType}}",
+			"Viewdetails": "View details",
+			"SalesRep": "Sales rep: {{SalesRep}}",
+			"NoSalesRep": "Sales rep not assigned",
+			"NoPrimaryContact": "Primary contact not added",
+			"NoEmail": "Email not added",
+			"NoPhonenumber": "Phone number not added",
+			"AddContact": "Add contact",
+			"ViewDetails": "View details"
+		}
+	},
+	"AddEditBuyer": {
+		"DefaultTaxation": "Default taxation",
+		"TaxSectionNote": "This can't be modified in order and quote forms"
+	},
+	"CartSummary": {
+		"Main": {
+			"EmptyFields": "Some fields are empty",
+			"AddItems": "Please add items to your cart before exporting",
+			"EmptyCart": "Empty Cart",
+			"OrderAlreadyCreated": "An order is already created for this cart. Do you wish to create a new cart or proceed with the current cart item.",
+			"NewCart": "New Cart",
+			"Proceed": "Proceed",
+			"TextErrorAre": "units are",
+			"TextErrorIs": "unit is",
+			"TextError": "on back order"
+		},
+		"StorefrontProceed": "Proceed to checkout",
+		"CartCheckModal": {
+			"NotAvailable": {
+				"Title": "Few items in the cart aren't available",
+				"Body": "Few items added in the cart are no longer available. Proceed by removing these items in the order or go back to the cart and add alternate items."
+			},
+			"PartiallyAvailable": {
+				"Title": "Few items partially available in cart",
+				"Body": "Few items added in the cart have lesser quantity. Go back to cart and change the quantities."
+			},
+			"OutOfStock": {
+				"Title": "Few items out of stock and partially available",
+				"Body": "Few items added in the cart have lesser quantity and few items are out of stock. Go back to cart and change the quantities."
+			},
+			"Back": "Back to cart",
+			"Discard": " Discard and proceed"
+		},
+		"CartSummaryCard": {
+			"Total": "Total",
+			"CartTotal": "Cart total",
+			"NewOrExistingBuyer": "Would you like to create a new customer or continue with the existing customer?",
+			"CreateNew": "Create New",
+			"ChooseExisting": "Choose customer",
+			"SelectBuyer": "You need to select a customer to be able to proceed",
+			"ConterToOrder": "Convert to order",
+			"CreateQuote": "Create quote",
+			"CreateOrder": "Create order",
+			"UpdateOrder": "Update order",
+			"SaveChanges": "Save changes",
+			"UpdateQuote": "Update quote",
+			"UpdateOrderNotAllowed": "You don't have access to update order. Please contact admin for permission",
+			"CreateOrderNotAllowed": "You don't have access to create order. Please contact admin for permission",
+			"ConfirmationTitle": "Confirm {{DocumentType}} creation",
+			"ConfirmationBodyTitle": "Are you sure you want to proceed with creating {{AOrAn}} {{DocumentType}} for :",
+			"NudgeFreeShipping": "Order over <strong>{{currency_symbol}} {{amount_needed}}</strong> and enjoy <strong>Free Shipping</strong>.",
+			"NudgeDiscount": "Order over <strong>{{currency_symbol}} {{amount_needed}}</strong> and enjoy a discount of <strong>{{discount}}%</strong> off on shipping charges.",
+			"NudgeFlatDiscount": "Order over <strong>{{currency_symbol}} {{amount_needed}}</strong> and get a flat discount of <strong>{{currency_symbol}}{{discount}}</strong>.",
+			"ConfirmationSubtitle": "You can change customer/Pricelist from the switcher on the cart page",
+			"KnowMore": "Know more"
+		},
+		"DeleteCartModal": {
+			"Discarditems": "Discard all items in the cart?",
+			"RemoveAllItems": "Few items have been added to the cart. Do you wish to remove all the items from the customer’s cart?",
+			"Back": "Back to cart",
+			"is_Small_Back": "Back",
+			"Discard": "Discard entire cart",
+			"is_Small_Discard": "Discard cart"
+		},
+		"ConfirmationModal": {
+			"GoBack": "Go Back",
+			"ConvertToOrder": "Convert to Order",
+			"ConfirmConvertToOrder": "Are you sure you want to convert this quote to an order? You might need to add additional information in order review page"
+		},
+		"DiscountModal": {
+			"EditDiscount": "Edit discount",
+			"AddDiscount": "Add discount",
+			"CartTotal": "Cart total",
+			"DiscountedAmount": "Discounted amount",
+			"SubTotal": "Sub Total",
+			"RemoveDiscount": "Remove discount",
+			"Update": "Update",
+			"Apply": "Apply"
+		},
+		"OfferDiscountModal": {
+			"Confirm": "Confirm",
+			"Cancel": "Cancel",
+			"OfferedPrice": "Offered price per unit",
+			"Discount": "Discount",
+			"SellingPrice": "Selling price per unit",
+			"DiscountTitle": "Apply discount or enter offered price",
+			"ModalTitle": "Offer Discount",
+			"DiscountProductTitle": "Select quantity to apply offer on",
+			"RemoveDiscount": "Remove Discount"
+		},
+		"DiscountAppliedPercentage": "Discount applied ({{value}}% off)",
+		"DiscountAppliedValue": "Discount applied ({{discount_price}} off / unit)",
+		"ShippingValue": "Shipping Charges",
+		"EmptyCart": {
+			"EmptyCart": "Your cart is empty, start adding products to cart",
+			"ExploreProducts": "Explore products",
+			"CustomProducts": "Add custom line item",
+			"AddExisting": "Add existing products"
+		},
+		"ErrorCart": {
+			"Title1": "Oops! Something went wrong",
+			"Title2": "We are facing some trouble navigating! Try restarting your journey",
+			"Retry": "Retry"
+		},
+		"NoteDrawer": {
+			"AddNotes": "Add notes",
+			"CustomerNotes": "Customer notes",
+			"ShareNoteWithBuyer": " Share note with the customer",
+			"RemoveNotes": "Remove notes",
+			"Update": "Update",
+			"Save": "Save",
+			"Remove": "Remove",
+			"Cancel": "Cancel"
+		},
+		"ProductCard": {
+			"Id": "ID: {{id}}",
+			"Sku": "SKU: {{sku_id}}",
+			"Price": "{{price}}",
+			"CustomerNote": "Customer note: {{Note}}",
+			"OfferedPrice": "Offered price: ",
+			"Note": "Note:",
+			"YourNote": ": {{Note}}",
+			"InStock": "In stock - {{count}}",
+			"MOQ": "MOQ : {{count}}",
+			"DiscountError": "Max allowed discount is {{price}} / unit"
+		},
+		"ProductListHeader": {
+			"ShowingProducts_one": "{{cart_length}} Product",
+			"ShowingProducts_other": "{{cart_length}} Products",
+			"AddProducts": "Add Products",
+			"EditGroups": "Edit groups"
+		},
+		"ProductMoreMenu": {
+			"DeleteItem": "Delete Item",
+			"EditNote": "Edit note",
+			"AddNote": "Add note",
+			"RemoveNote": "Remove note",
+			"Discount": "Offer Discount",
+			"EditDiscount": "Edit Discount",
+			"RemoveDiscount": "Remove Discount",
+			"EditAdhocItem": "Edit Product",
+			"EditPrice": "Edit price"
+		},
+		"TearSheet": {
+			"DownloadTearSheet": "Download Tear Sheet",
+			"Cancel": "Cancel",
+			"Download": "Download",
+			"Preview": "Preview",
+			"Downloading": "Downloading",
+			"ShowPrice": "Show price",
+			"ShowTearsheetPrice": "Show price on tear sheet",
+			"SelectPriceList": "Select a Pricelist",
+			"ChooseTemplates": "Choose templates",
+			"ChoosePreviewTemplate": "Choose the templates you want to download preview them",
+			"PriceEnable": "Enable the pricing of the products to be visible on the tear sheet"
+		},
+		"ManageCustomGroups": {
+			"ManageCustomGroupsHeader": "Manage custom groups",
+			"AddGroup": "Add group",
+			"Done": "Done",
+			"Ungrouped": "Ungrouped",
+			"Cancel": "Cancel",
+			"Save": "Save",
+			"Delete": "Delete",
+			"DeleteGroup": "Delete Group",
+			"EditGroup": "Edit Group",
+			"GroupName": "Group Name",
+			"DeleteGroupConfirmation": "Are you sure you want to delete this group?",
+			"DuplicateGroupNameWarning": "Group name already exists"
+		},
+		"EditProductPrice": {
+			"EditPriceTitle": "Edit price",
+			"ResetPriceToDefault": "Reset to default",
+			"UpdatePrice": "Update",
+			"Cancel": "Cancel"
+		},
+		"PriceUpdateLoading": {
+			"FetchingText": "Fetching latest product information...",
+			"FetchComplete": "Product price is updated"
+		}
+	},
+	"Adhoc": {
+		"Quantity_error": "Quantity should less than 10,000",
+		"SubmitAndAddOther": "Add more",
+		"UpdateCart": ". Update cart to proceed further.",
+		"Errors_one": "{{errors_count}} error",
+		"Errors_other": "{{errors_count}} errors",
+		"ShowingLowProducts_one": "{{low_inventory_count}} product is low in inventory",
+		"ShowingLowProducts_other": "{{low_inventory_count}} products are low in inventory",
+		"ShowingUnavailableProducts_one": "{{unavailable_product_count}} product is unavailable",
+		"ShowingUnavailableProducts_other": "{{unavailable_product_count}} products are unavailable"
+	},
+	"Dashboard": {
+		"Main": {
+			"CreateOrder": "Create Order",
+			"Analytics": "Analytics",
+			"RecentActivity": "Recent activity",
+			"StorefrontLeads": "Website leads",
+			"ViewAll": "View All",
+			"ApproveUser": "Approve & add user",
+			"ApproveCustomer": "Approve & add customer"
+		}
+	},
+	"LabelManagement": {
+		"Main": {
+			"ChangeTemplate": "Change label template",
+			"ShowingTemplates": "Showing {{count}} templates",
+			"Cancel": "Cancel",
+			"Confirm": "Confirm"
+		},
+		"QRTemplate": {
+			"Size": "size - {{size}}",
+			"ShowingAttributes": "Showing {{length}} attributes",
+			"NoAttributesSelected": "No attributes selected",
+			"Default": "Default"
+		},
+		"TemplateModal": {
+			"Size": "Size",
+			"ShowingAttributes_one": "Showing {{attributes_length}} attribute",
+			"ShowingAttributes_other": "Showing {{attributes_length}} attributes",
+			"NoAttributesSelected": "No attributes selected"
+		}
+	},
+	"ManageData": {
+		"Main": {
+			"ManageData": "Import - Export",
+			"SelectModule": "Select a module to start importing or exporting data for",
+			"Download": "Download",
+			"Cancel": "Cancel",
+			"Retry": "Retry",
+			"Discard": "Discard",
+			"Confirm": "Confirm",
+			"Import": "Import",
+			"Export": "Export",
+			"Yes": "Yes",
+			"No": "No"
+		},
+		"DataCard": {
+			"Title": "You do not have permission to access this module"
+		},
+		"ExportToast": {
+			"Title": "Export has started",
+			"Sub": "Click the bell icon to check progress"
+		},
+		"ImportToast": {
+			"Title": "Import has started",
+			"Sub": "Click the bell icon to check progress"
+		},
+		"ExportModal": {
+			"GettingReady": "File is getting ready for download. You can check the progress in the task bar",
+			"GotIt": "Ok, Got it!"
+		},
+		"ImportSidePanel": {
+			"Upload": "Upload excel sheet",
+			"ReviewAndSync": "Review and sync",
+			"Uploaded": "Excel sheet uploaded",
+			"Validation": "Data validation in progress",
+			"Wait": "Please wait while we validate your data, dont close the tab!",
+			"Completed": "Data validation completed",
+			"BackNavigationWarning": "Changes you made may not be saved. Are you sure you want to leave?"
+		},
+		"DismissTaskModal": {
+			"DismissTasks": "Dismiss tasks",
+			"Close": "Closing will lead to cancellation of ongoing tasks. Are you sure you want to continue ?"
+		},
+		"GoingAwayModal": {
+			"Going": "Going away?",
+			"Discard": "The file will not import if you choose to discard. Do you want to resume the task or discard it?",
+			"Resume": "Resume"
+		},
+		"Retry": {
+			"Upload": "Upload Excel",
+			"UploadExcel": "Upload Excel You can upload a fresh excel or upload a fixed error sheet that you exported previously "
+		},
+		"ReviewAndSnycInProgress": {
+			"Syncing": "Syncing in progress.",
+			"MoreDetails": "For more details refer to the task pane.",
+			"InProgress": "1 Task in progress"
+		},
+		"ReviewAndSync": {
+			"AddOnly": "Add only",
+			"Add&Update": "Add & update",
+			"UpdateOnly": "Update only",
+			"HandleDuplicates": "Choose how to handle duplicates in case we encounter any in the file you uploaded"
+		},
+		"SelectTemplate": {
+			"MultipleInfo": "Chosen import contains multiple types of information. Choose what you would like to import first from the dropdown below.",
+			"DownloadOrImport": "Download the template to fill in the data or directly click on import if you have the sheet ready!",
+			"SelectOption": "Select option"
+		},
+		"TemplateDownload": {
+			"ErrorFetching": "Error fetching or downloading the file:",
+			"TemplateExcel": "Template Excel",
+			"Download": "Download the template to upload {{entity}} in required format"
+		}
+	},
+	"Presentation": {
+		"ReviewProductListing": {
+			"Heading": "Review products",
+			"InCatalog": "in catalog",
+			"Update": "Proceed",
+			"Proceed": "Proceed",
+			"AddProducts": "Add products"
+		},
+		"CatalogPreview": {
+			"UpdateAndGenerate": "Update & Generate",
+			"CreateAndGenerate": "Create & Generate",
+			"Products": "products"
+		},
+		"CustomizeCatalogDrawer": {
+			"Pricing": "Pricing",
+			"ShowPricing": "Show Pricing",
+			"CustomizeCatalog": "Customize catalog",
+			"Preview": "Preview",
+			"ChooseTemplate": "Choose template",
+			"Products": "products"
+		},
+		"EmptyReview": {
+			"Heading": "Your catalog is empty",
+			"Body": "Add products to create a catalog",
+			"AddProducts": "Add Products"
+		},
+		"ExitCatalog": {
+			"Body": "Are you sure to exit catalog mode?",
+			"Cancel": "Cancel",
+			"Exit": "Yes, exit"
+		},
+		"ReviewBottomBar": {
+			"Clear": "Clear",
+			"Cancel": "Cancel",
+			"Review": "Review",
+			"Selected": "selected"
+		},
+		"Preview": {
+			"PreviewTitle": "Preview"
+		},
+		"ToastMsg": {
+			"GeneratingCatalog": "Generating Catalog"
+		}
+	},
+	"Wishlist": {
+		"WishlistIcon": {
+			"AddToast": "Added to",
+			"RemoveToast": "Removed from",
+			"UpdateToast": "Wishlist Updated",
+			"Change": "Change"
+		},
+		"SelectionDrawer": {
+			"Heading": "Manage wishlist for",
+			"Self": "Self",
+			"Save": "Save",
+			"Cancel": "Cancel",
+			"TotalWishlists": "Showing {{count}} wishlists"
+		},
+		"Card": {
+			"Rename": "Rename",
+			"Delete": "Delete",
+			"CreatedAt": "Created: {{date}}",
+			"UpdatedAt": "Updated: {{date}}",
+			"Me": "Me",
+			"Website": "Website"
+		},
+		"CreateCard": {
+			"Heading": "Create new wishlist",
+			"Body": "Add products to a new wishlist"
+		},
+		"Wishlist": {
+			"PageHeading": "Wishlist",
+			"CreateWishlist": "Create wishlist",
+			"BuyerWishlist": "{{name}}'s Wishlists",
+			"SelfWishlist": "My Wishlist",
+			"RecommendedWishlist": "Recommended Wishlists"
+		},
+		"Details": {
+			"AddAllToCart": "Add all to cart",
+			"TotalProductsCount": "Showing {{value}}",
+			"WishlistUpdated": "Updated on {{date}} by {{name}}",
+			"WishlistCreated": "Created on {{date}} by {{name}}",
+			"WishlistUpdatedAt": "Updated on {{date}}",
+			"WishlistCreatedAt": "Created on {{date}}"
+		},
+		"CreateWishlistModal": {
+			"CreateNewWishList": "Add to wishlist",
+			"RenameWishList": "Rename wishlist",
+			"AskForCustomer": "Would you like to create a wishlist for yourself or assign it to a customer?",
+			"Assign": "Assign Customer",
+			"ProceedSelf": "Proceed as self",
+			"Cancel": "Cancel",
+			"Save": "Save"
+		},
+		"NoWishList": {
+			"NoTotalWishlist": "You haven't created any wishlists yet",
+			"NoCustomerWishlist": "No wishlist has been created for this customer",
+			"NoWishlistDescription": "Explore products to start creating wishlists",
+			"NoWishlistedProducts": "This wishlist is empty",
+			"NoWishlistedProductDesc": "Explore and add products to this wishlist",
+			"StartExploreBtn": "Start Adding"
+		},
+		"DeleteWishList": {
+			"ModalTitle": "Delete {{name}}",
+			"ModalText": "Are you sure you want to delete this wishlist?",
+			"Cancel": "Cancel",
+			"Delete": "Delete"
+		},
+		"Toast": {
+			"WishlistCreated": "Wishlist Created",
+			"WishlistRenamed": "Wishlist Renamed",
+			"WishlistDeleted": "Wishlist Deleted",
+			"SavedTo": "Saved to :",
+			"RemovedFrom": "Removed from :",
+			"Change": "Change"
+		},
+		"WishlistSelectionModal": {
+			"SelfWishlist": "My wishlists",
+			"SelectWishlist": "Select wishlists",
+			"Create": "Create",
+			"Done": "Done",
+			"EmptyText": "No wishlist available"
+		}
+	},
+	"OrderManagement": {
+		"OrderListing": {
+			"Showing": "Showing {{count}} results",
+			"LimitShowing": "Showing top 10,000 results",
+			"ShowingTooltip": "Please use filters and search options to explore more.",
+			"ToastMessage": "We can retrieve up to 10,000 {{type}} at once. Please use filters and search options to explore more.",
+			"CreateCatalog": "Create catalog"
+		},
+		"ExportModal": {
+			"Title": "Select the export type that you want to proceed with "
+		},
+		"DocumentTagModal": {
+			"ChooseTag": "Choose an order tag",
+			"ChooseToDisplay": "Choose an order tag to display",
+			"Add": "Add",
+			"AddPayment": "Payment",
+			"AddShipping": "Shipping",
+			"AddOrderTag": "Tag",
+			"FulfilmentStatus": "Fulfilment status",
+			"PaymentStatus": "Payment status",
+			"OrderTag": "Order tag"
+		},
+		"ExportDrawer": {
+			"Title": "Export settings",
+			"FooterCancel": "Cancel",
+			"FooterExport": "Export",
+			"ExportType": "Export type",
+			"ChooseDocumentStatus": "Choose order tag",
+			"DocumentTagSubtext": "Do you want to assign an order tag for exported {{tab}}?"
+		},
+		"useOrderManagement": {
+			"NotEditable": "The cart cannot be edited. it has already been {{status}}",
+			"Quote": "quote",
+			"Order": "order",
+			"Downloading": "Downloading...",
+			"DownloadInProgress": "Download in Progress",
+			"InvalidFormat": "Invalid response format for PDF download.",
+			"ErrorDownloading": "Error downloading PDF:",
+			"Error": "Error",
+			"TryAgain": "Please Try Again"
+		},
+		"EditBuyerModal": {
+			"UpdateOrder": "No, only for this order",
+			"UpdateBuyerOrder": "Yes",
+			"SubTitle": "Do you want to save this change for this customer permanently?",
+			"Title": "Save change for this customer?",
+			"WantToSave": "Do you want to save",
+			"ChangesBuyerData": "changes for this customer permanently?"
+		},
+		"CartCheckoutCard": {
+			"DiscountValue": "Discount",
+			"DiscountPercentage": "Discount ({{value}}%)",
+			"ShippingValue": "Shipping Charges",
+			"ShippingPercentage": "Shipping Charges ({{value}}%)",
+			"TaxValue": "Tax",
+			"TaxPercentage": "Tax ({{value}}%)",
+			"ReSumbitQuote": "Re-submit Quote",
+			"UpdateOrder": "Update Order",
+			"CartTotal": "Cart total",
+			"Discount": "Discount",
+			"Shipping": "Shipping Charges",
+			"Tax": "Taxes",
+			"AdditionalCharges": "Additional Charges",
+			"EditDiscount": "Edit discount",
+			"AddDiscount": "Add discount",
+			"RemoveTaxes": "Remove",
+			"AdditionalChargesValue": "Additional Charges ({{symbol}}{{value}})",
+			"Edit": "Edit",
+			"Add": "Add",
+			"ShippingCharges": {
+				"Remove": "Remove shipping charges",
+				"Add": "Add shipping charges",
+				"Delete": "Delete shipping Charges ?",
+				"Apply": "Apply shipping Charges ?"
+			},
+			"Taxes": {
+				"Remove": "Remove taxes",
+				"Add": "Add taxes"
+			},
+			"Total": "Total",
+			"Cancel": "Cancel",
+			"Delete": "Yes, Delete",
+			"Confirm": "Confirm",
+			"PaidByCustomer": "Paid by customer",
+			"PendingPayment": "Pending Payment",
+			"PaymentMethod": "Payment method",
+			"PaymentMethods": "Payment methods",
+			"PaymentNotAssigned": "Payment method not assigned",
+			"AvailableCredits": "Available credits",
+			"PrimaryContactNotAdded": "Primary contact not added",
+			"RefundedtoCustomer": "Refunded to customer",
+			"RemoveShippingCharges?": "Are you sure you want to remove the shipping charges?",
+			"FixedShippingCharge": "A fixed shipping charge of 12% will be added to the order",
+			"PaymentReceived": "Amount collected",
+			"PaymentRefunded": "Amount refunded",
+			"ExcessPaymentReceived": "Excess payment received",
+			"AmountDue": "Amount due",
+			"PaymentPending": "Payment pending",
+			"EmailNotAdded": "Email not added",
+			"PhoneNotAdded": "Phone number not added",
+			"NoSalesRep": "Sales rep not assigned",
+			"IAgreeTerms": " I agree to the terms and conditions ",
+			"ReviewTnc": "ReviewTnc",
+			"ModalFooterButton": "I agree to terms and conditions",
+			"ModalFooterBackButton": "Back"
+		},
+		"DiscountModal": {
+			"EditDiscount": "Edit discount",
+			"AddDiscount": "Add discount",
+			"CartTotal": "Cart total",
+			"DiscountedAmount": "Discounted amount",
+			"SubTotal": "Sub Total",
+			"Total": "Total",
+			"RemoveDiscount": "Remove discount",
+			"Update": "Update",
+			"Apply": "Apply"
+		},
+		"TaxModal": {
+			"EditTaxes": "Edit taxes",
+			"AddTaxes": "Add taxes",
+			"CartTotal": "Cart total",
+			"SubTotal": "Sub Total",
+			"RemoveTaxes": "Remove taxes",
+			"Update": "Update",
+			"Apply": "Apply",
+			"AppliedTaxes": "Applied Taxes"
+		},
+		"ShippingModal": {
+			"EditShipping": "Edit shipping",
+			"AddShipping": "Add shipping",
+			"CartTotal": "Cart total",
+			"SubTotal": "Sub Total",
+			"RemoveShipping": "Remove shipping charges",
+			"Update": "Update",
+			"Apply": "Apply",
+			"AppliedShippingCharges": "Applied shipping charges"
+		},
+		"ChargesModal": {
+			"AddCharges": "Add Additional charges",
+			"EditCharges": "Edit Additional charges",
+			"AppliedCharges": "<Additional Charges>",
+			"Add": "Add",
+			"Update": "Update",
+			"Remove": "Remove"
+		},
+		"ConfirmationModal": {
+			"EditCart": "Edit Cart",
+			"ConvertToOrder": "Convert to Order"
+		},
+		"OrderEndStatusContainer": {
+			"SubText": "{{type}} {{status}} for {{name}}",
+			"ViewLinked": "View Linked {{type}}",
+			"EmailSent": "{{id}} has been {{status}} for {{name}} and an email has been sent."
+		},
+		"OrderEndStatusInfoContainer": {
+			"ProductId": "# Product ID",
+			"Image": "Image",
+			"Details": "Details",
+			"Price": "Price",
+			"OfferedPrice": "Offered Price",
+			"Quantity": "Quantity",
+			"Total": "Total",
+			"ShippingAddress": "Shipping address not added",
+			"BillingAddress": "Billing address not added",
+			"Contact": "No Contact added",
+			"ProductDetails": "Product Details",
+			"Qty": "Qty",
+			"Amount": "{{price}}",
+			"Status": "Status",
+			"EmailConfirmation": "{{DocType}} confirmation email was sent to customer",
+			"Add/Edit": "Add/Edit",
+			"Capacity": "Capacity:",
+			"WrittenForName": "Written for: {{written_for_name}}",
+			"WrittenByName": "Written by: {{written_by_name}}",
+			"SyncNow": "Sync now",
+			"Syncing": "Syncing...",
+			"LastSyncStatus": "Sync status : {{last_sync_status}}",
+			"LastSyncedAt": "Last synced at {{synced_time}} on {{synced_date}}",
+			"PushUpdates": "Push updates",
+			"PullUpdates": "Pull updates",
+			"OrderInfoSynced": "Order info synced",
+			"SyncFailed": "Sync failed",
+			"PDF": "PDF",
+			"Download": "Download",
+			"Excel": "Excel"
+		},
+		"OrderManagementContainer": {
+			"Reload": "Please reload to get latest document details",
+			"AddToCustomerProfile": "Add to the customer profile",
+			"SaveChangesToCustomerProfile": "Save changes to customer profile",
+			"DocumentLevelAttributeHeader": "{{doc_type}} level {{attribute_type}}",
+			"DocumentLevelAttributeSubHeader": "{{attribute_type}} saved against the {{doc_type}}",
+			"CustomerLevelAttributeHeader": "Saved {{attribute_type}}",
+			"CustomerLevelAttributeSubHeader": "{{attribute_type}} saved against the customer",
+			"DocumentLevelAttributeChangeInfo": "Changes will only apply to this {{doc_type}} and won't update the customer profile",
+			"Clear": "Clear"
+		},
+		"ChangeAddressDrawer": {
+			"NoAddress": "There are no addresses",
+			"NoCards": "There are no cards added",
+			"NoBillingAddress": "There are no billing addresses",
+			"NoShippingAddress": "There are no shipping addresses",
+			"NoContact": "There are no contacts",
+			"Add": "Add",
+			"FullName": "{{first_name}} {{last_name}}",
+			"Address": "{{city}}, {{state_label}}, {{pincode}}",
+			"AddAddress": "Add Address",
+			"Done": "Done",
+			"PrimaryAddress": "Primary"
+		},
+		"Drawers": {
+			"BillingAddress": "Billing address",
+			"ShippingAddress": "Shipping address"
+		},
+		"ChangeContactDrawer": {
+			"NoContact": "There are no contacts",
+			"Add": "Add",
+			"AddContact": "Add Contact",
+			"Done": "Done",
+			"PrimaryContact": "Primary"
+		},
+		"NotesDrawer": {
+			"CustomerNotes": "Customer notes",
+			"Notes": "Notes",
+			"ShareNote": "Share note with the customer",
+			"YourNotes": "Your notes",
+			"Cancel": "Cancel",
+			"Done": "Done"
+		},
+		"SendMailDrawer": {
+			"AdditionalEmailIds": "Additional email IDs",
+			"AddEmail": "Add",
+			"Cancel": "Cancel",
+			"Done": "Done",
+			"Add": "Add"
+		},
+		"NotesSection": {
+			"CustomerNotes": "Customer Notes: ",
+			"ShareNote": "Share note with the customer",
+			"YourNote": "Your Note: ",
+			"Note": "Note: "
+		},
+		"Buttons": {
+			"Edit": "Edit",
+			"Cancel": "Cancel",
+			"Save": "Save",
+			"Add": "Add",
+			"Calculate": "Calculate"
+		},
+		"UserDetailSection": {
+			"Mandatory": "This is mandatory",
+			"FullName": "{{first_name}} {{last_name}}",
+			"Contact": "No Contact added",
+			"Phone": "Phone number not added",
+			"Address": "{{city}}, {{state}}, {{zip}}",
+			"Select": "Select {{name}}",
+			"Change": "Change",
+			"Email": "No email added",
+			"Manage": "Manage"
+		},
+		"SalesRepDetailsSection": {
+			"SalesRepDetails": "Salesrep details",
+			"DocCreatedUpdatedMessage": "{{person}} {{action}} this {{doc_type}} on {{date}}"
+		},
+		"SendOrderConfirmation": {
+			"Title": "Send email confirmation",
+			"Subtitle": "Select mail recipients",
+			"Cancel": "Cancel",
+			"Send": "Send"
+		},
+		"SendMail": {
+			"Title": "Enter email where you want to share the receipt",
+			"Suggested": "Suggested mails"
+		},
+		"Invoices": {
+			"InvalidInvoiceUrlTitle": "Invoice PDF not available currently, please contact admin"
+		},
+		"CartCommonNotification": {
+			"Title": "Taxes & charges ",
+			"SubTitle": "will be updated later, if applicable"
+		},
+		"ManualPaymentStatusModal": {
+			"Title": "Choose a payment status",
+			"SubTitle": "Choose a payment status to display",
+			"SuccessStateMsg": "{{doc_type}} payment status updated",
+			"FailedStateMsg": "{{doc_type}} payment status update failed",
+			"Submit": "Submit",
+			"Cancel": "Cancel"
+		},
+		"AbandonedCart": {
+			"ModalTitle": "There are a few items in your existing cart. If you proceed, they will be removed.",
+			"ModalBackButton": "Cancel",
+			"ModalProceed": "Proceed",
+			"UpdateCommentModalTitle": "Add Comments to Abandoned Cart",
+			"Cancel": "Cancel",
+			"Update": "Update",
+			"AddComment": "Add Comment"
+		}
+	},
+	"UserManagement": {
+		"AddEditRole": {
+			"EditRole": "Edit Role",
+			"AddRole": "Add Role",
+			"Save": "Save",
+			"Add": "Add"
+		},
+		"AddEditUser": {
+			"EditUser": "Edit User",
+			"AddUser": "Add User",
+			"Save": "Save",
+			"Add": "Add"
+		},
+		"DeactivatingUser": {
+			"Deactivating_admin": "User will be logged out of all the system & user access will be blocked. All the customers, reportees and transaction data currently under this account will be transferred to the below selected users.",
+			"Deactivating_user": "User will be logged out & user access will be blocked. All the customers currently under this account will be transferred to the below selected user.",
+			"title": "Transfer transaction data",
+			"Done": "Done",
+			"Cancel": "Cancel",
+			"Deactivated_successfully": "User deactivated successfully"
+		}
+	},
+	"PDP": {
+		"useProductDetails": {
+			"DownloadInProgress": "Download in Progress...",
+			"Invalid": "Invalid response format for PDF download.",
+			"WrongResponse": "Wrong response from Server",
+			"ErrorDownloading": "Error downloading PDF:",
+			"SomethingWentWrong": "Something Went Wrong",
+			"ErrorFetching": "Error fetching price list:"
+		},
+		"ProductActionSection": {
+			"Value": "Value: {{price}}",
+			"ShowingVariants_one": "{{length1}}/{{length2}} Variant added",
+			"ShowingVariants_other": "{{length1}}/{{length2}} Variants added",
+			"InStock": "In stock : {{stock}} pcs",
+			"CatalogSelected": "{{length1}}/{{length2}} variants selected"
+		},
+		"ProductInfoHeader": {
+			"MOQ": "(MOQ : {{count}})",
+			"TearSheet": "Tear Sheet"
+		},
+		"FrequentProductRail": {
+			"FrequentlyBoughtTogether": "Frequently bought together"
+		},
+		"RelatedProductRail": {
+			"RelatedProducts": "Related Products"
+		},
+		"SimilarProductContainer": {
+			"SimilarProducts": "Similar Products"
+		},
+		"Common": {
+			"Price": "{{price}}",
+			"AddToCart": "Add to cart",
+			"Cancel": "Cancel",
+			"Apply": "Apply",
+			"ViewAll": "View all",
+			"LockPrice": "Login to see price",
+			"LockPriceV2": "Login for price",
+			"SignupForAccess": "Signup for access",
+			"SignupForFullAccess": "Signup for full access",
+			"CatalogSwitch": "Pricelist switched",
+			"AddAllToCart": "Add all to cart"
+		}
+	},
+	"ProductList": {
+		"Main": {
+			"NotArrayError": "Container details are not an array:",
+			"FetchingError": "Error fetching container details:",
+			"Search": "Search",
+			"ViewAll": "View All",
+			"ShowingPaginatedProducts_one": "Showing {{start_count}} - {{end_count}} of {{nb_hits}} product",
+			"ShowingPaginatedProducts_other": "Showing {{start_count}} - {{end_count}} of {{nb_hits}} products",
+			"ShowingPaginatedResults_one": "Showing {{start_count}} - {{end_count}} of {{nb_hits}} result",
+			"ShowingPaginatedResults_other": "Showing {{start_count}} - {{end_count}} of {{nb_hits}} results",
+			"ShowingProducts_one": "Showing {{nb_hits}} product",
+			"ShowingProducts_other": "Showing {{nb_hits}} products",
+			"AddToCart": "Add to cart",
+			"ViewDetails": "View details",
+			"View": "View"
+		},
+		"CategoriesRail": {
+			"Category": "Category"
+		},
+		"CategoryHeaderFilters": {
+			"AllProducts": "All Products"
+		},
+		"CollectionsRail": {
+			"Collections": "Collections"
+		},
+		"PreviousOrderRail": {
+			"PreviouslyOrdered": "Previously Ordered"
+		}
+	},
+	"Tables": {
+		"Tags": {
+			"ShowingItems_one": "{{valueFormatted}} item",
+			"ShowingItems_other": "{{valueFormatted}} items"
+		}
+	},
+	"SideSheet": {
+		"Order": {
+			"ShowingItems_one": "{{ordersCount}} order",
+			"ShowingItems_other": "{{ordersCount}} orders"
+		},
+		"Quote": {
+			"ShowingItems_one": "{{quotesCount}} quote",
+			"ShowingItems_other": "{{quotesCount}} quotes"
+		},
+		"Draft": {
+			"ShowingItems_one": "{{draftsCount}} draft",
+			"ShowingItems_other": "{{draftsCount}} drafts"
+		}
+	},
+	"Reporting": {
+		"MetabaseReporting": "Last updated : {{last_updated_at}}. All dates and times are shown in {{time_zone}}."
+	},
+	"Common": {
+		"MOQ": "MOQ - {{count}}",
+		"Main": {
+			"NoResult": "No results found",
+			"GenerateLabel": "Generate label",
+			"Edit": "Edit",
+			"Save": "Save",
+			"Cancel": "Cancel",
+			"Timezone": "Timezone",
+			"SetTimezoneAutomatic": "Set time zones automatically",
+			"WarningForUpdateTimezone": "Changing the timezone will update all dates and times in your account across all devices."
+		},
+		"ErrorPages": {
+			"NoResult": "We haven’t found any results for your search",
+			"Retry": "Try searching for another name"
+		},
+		"ErrorPage_500": {
+			"Wizcommerce": "WizCommerce",
+			"NoResult": "Oops! It’s not you, it’s us",
+			"Retry": "We’re facing some trouble.",
+			"ContactUs": "Still facing issues? Contact {{email}}",
+			"GoBack": "Go Back",
+			"Home": "Home"
+		},
+		"FilterComponents": {
+			"Search": "Search",
+			"SelectAll": "Select All",
+			"Clear": "Clear",
+			"Update": "Update",
+			"Apply": "Apply",
+			"MinValue": "Min Value",
+			"MaxValue": "Max value",
+			"ClearAll": "Clear All",
+			"ShowingResults_one": "Show result",
+			"ShowingResults_other": "Show results",
+			"ShowingMore": "...more",
+			"MoreChip": "+More",
+			"SelectRange": "Select range"
+		},
+		"ImportDrawer": {
+			"Import/Export": "Import/Export",
+			"Import": "Import excel sheet",
+			"UploadSheet": "Upload excel sheet to update price lists",
+			"Upload": "Upload",
+			"Export": "Export excel sheet",
+			"GetSheet": "Get excel sheet with all price list data",
+			"Download": "Download",
+			"SelectExportFilter": "Chosen export contains multiple types of information. Choose what you would like to export from the dropdown below.",
+			"OrdersAndQuotes": "orders and quotes"
+		},
+		"ManageColumns": {
+			"ToggleColumns": "Hide/show columns or change their order",
+			"DragToSet": "Drag the attributes to set the order",
+			"ManageColumns": "Manage columns",
+			"Close": "Close",
+			"Confirm": "Confirm"
+		},
+		"PreviosOrderCard": {
+			"OrderedTillDate": "Last ordered",
+			"Value": "Value",
+			"Quantity": "Quantity"
+		},
+		"ProductCard": {
+			"CustomizeSelection": "Customize selection",
+			"AddToCart": "Add to cart",
+			"Discontinued": "This product is discontinued"
+		},
+		"SimilarDrawer": {
+			"NoProducts": "No similar products were found",
+			"ExploreMore": "Try exploring more products",
+			"ExporeAll": "Explore all"
+		},
+		"SimilarCard": {
+			"UpdateSelection": "Update Selection",
+			"AddToCart": "Add to cart"
+		},
+		"Table": {
+			"ClearFilters": "Clear filters"
+		},
+		"VariantDrawer": {
+			"AllVariants": "All Variants",
+			"Value": "Value: {{price}}",
+			"CartValue": "Cart Value : {{price}}",
+			"Done": "Done",
+			"SKUDelete": "Select SKUs to delete",
+			"ClearFilters": "Clear filters",
+			"SelectAll": "Select all",
+			"Cancel": "Cancel",
+			"DeleteSelected": "Delete selected {{sku}}"
+		},
+		"DeleteProductModal": {
+			"ConfirmSelected": "Confirm deletion",
+			"DeleteSelectedSKU": "Are you sure you want to permanently delete {{count}} selected {{sku}}?",
+			"DeleteProduct": "Are you sure you want to permanently delete this SKU?",
+			"YesDeleteSKUs": "Yes, delete selected {{sku}}",
+			"YesDelete": "Yes, delete",
+			"AlertMsg": "You won’t be able to recover the {{sku}} after deletion",
+			"ToastMsg": "{{sku}} deleted successfully"
+		},
+		"OneColForm": {
+			"ManagePeople": "Does this role manage people?"
+		},
+		"Notification": {
+			"Notifications": "Notifications",
+			"NoNewNotifications": "No new notifications"
+		},
+		"AddPaymentModal": {
+			"InvalidCardNumber": "Enter a valid card number",
+			"InvalidCardCvv": "Enter valid CVV",
+			"ConfirmDelete": "Proceeding will remove the card from the customer's profile. Are you sure you want to continue?",
+			"ConfirmACHDelete": "Proceeding will remove the bank account from customer’s profile. Are you sure you want to continue?",
+			"Cancel": "Cancel",
+			"Delete": "Delete",
+			"AddCard": "Add card",
+			"AddAccount": "Add account"
+		},
+		"AddCardErrorModal": {
+			"Title": "Failed to add card",
+			"ViewResponse": "View response",
+			"CopyResponse": "Copy response",
+			"Okay": "Okay"
+		},
+		"RefundPaymentDrawer": {
+			"Credits": "Credits",
+			"CurrentBalance": "Current balance : {{price}}",
+			"RefundPayment": "Refund payment",
+			"Cancel": "Cancel",
+			"Refund": "Refund",
+			"RefundAmount": "Amount received",
+			"RefundAgainstId": "Refund payment against payment ID",
+			"RefundSource": "Select the refund flows",
+			"Back": "Back",
+			"Confirm": "Confirm",
+			"ConfirmRefund": "A refund of {{price}} will be initiated. Please confirm to proceed.",
+			"UseTerminal": "Ask customer to Swipe/ Tap the card to initiate the refund"
+		},
+		"RecurringPaymentDrawer": {
+			"SaveChanges": "Save changes",
+			"ConfirmUpdate": "Do you wish to continue with the changes."
+		},
+		"CollectPaymentDrawer": {
+			"CollectPayment": "Collect payment",
+			"Charge": "Charge",
+			"SelectPaymentMethod": "Select payment method",
+			"AmountDue": "Total Amount Due",
+			"CollectAgainstInvoice": "Collect payment against an invoice",
+			"UseCredits": "Use credits",
+			"UseAvailableCredits": "Use available credits",
+			"CreditsUsed": "Credits used",
+			"ChooseTerminal": "Choose a terminal to take payment",
+			"TerminalOn": "Please make sure that the terminal is in bypass off state",
+			"TransactionDetails": "The transaction details will be available in WizPay dashboard",
+			"NoInvoicesAvailable": "No invoices available against this order!",
+			"CollectAdvancePayment": "Collect advance payment",
+			"AddCredits": "Add credits",
+			"Credits": "Credits",
+			"Payment": "Payments",
+			"AvailableCredits": "Available credits",
+			"LastTransaction": "Last transaction",
+			"ConfirmCollectPayment": "A payment of {{price}} will be collected. Please confirm to proceed.",
+			"ConfirmCollectPaymentACH": "A payment of {{price}} will be collected via ACH, Please confirm to proceed.",
+			"ConfirmAuthorizePaymentTitle": "Authorize card",
+			"ConfirmAuthorizePaymentSubTitle": "Card will be authorized with an amount of {{price}}. Please confirm to proceed.",
+			"ConfirmSubsPaymentTitle": "Recurring payment",
+			"ConfirmSubsPaymentSubTitle": "A recurring payment schedule of {{recurring_amount}} per transaction, with a total payable amount of {{total_amount}}, will be implemented from {{start_date}} to {{end_date}}. Please confirm to proceed"
+		},
+		"TransactionCompleteModal": {
+			"PaymentId": "Payment ID : {{id}}",
+			"Amount": "Amount : {{price}}",
+			"PendingMessage": "Payment processing by the partner bank. We’ll notify once the payment is compelte",
+			"FailedMessage": "There seems to be a network issue, please reconnect and try again.",
+			"ShareReceipt": "Share receipt",
+			"Done": "Done",
+			"Okay": "Okay",
+			"Retry": "Retry",
+			"Cancel": "Cancel",
+			"Close": "Close",
+			"PaymentStatus": "Payment {{status}}",
+			"ACHSuccessBody": "You have authorized us to initiate an automated clearing house (ACH) one-time debit in your name to your bank account. This transaction will be presented to your financial institution by the next business day. You further agree that you may not revoke this authorization or cancel this payment"
+		},
+		"Common": {
+			"CopiedToClipboard": "Copied to clipboard",
+			"ProductLimitReached": "Selection limit reached"
+		},
+		"EmailModal": {
+			"SendEmail": "Send email to customer",
+			"NoEmailSent": "No email will be sent to customer",
+			"NoCustomerFound": "No customer recipients found. Please add recipients to send email to the customer.",
+			"CustomerSubTitle": "Are you sure you want to create a new customer?",
+			"CustomerTitle": "Create customer",
+			"Confirm": "Confirm",
+			"Back": "Back",
+			"RejectTitle": "Reject lead",
+			"RejectSubtitle": "Are you sure you want to reject this lead?",
+			"Cancel": "Cancel",
+			"Reject": "Reject"
+		},
+		"AddEditContactDrawer": {
+			"EditContact": "Edit contact",
+			"AddContact": "Add contact"
+		},
+		"AddEditAddressDrawer": {
+			"EditAddress": "Edit {{address_type}} address",
+			"AddAddress": "Add {{address_type}} address",
+			"Shipping": "shipping",
+			"Billing": "billing"
+		},
+		"CopyAddressDrawer": {
+			"CopyAddressFrom": "Copy address from",
+			"ShowingResults": "Showing {{count}} results",
+			"ShowingResult": "Showing {{count}} result"
+		},
+		"CopyContactDrawer": {
+			"CopyContactFrom": "Copy contact from",
+			"ShowingResults": "Showing {{count}} results",
+			"ShowingResult": "Showing {{count}} result"
+		},
+		"ExistingCustomer": {
+			"ExistingCustomerTitle": "Is this an existing customer?",
+			"ExistingCustomerSubTitle": "Select a customer to proceed"
+		},
+		"ReOrderFlow": {
+			"ReOrder": "Re-order",
+			"ReplaceCartItems": "You already have items in your cart. If you proceed, they will be replaced with the new items. Are you sure you want to proceed?"
+		},
+		"QuickViewDrawer": {
+			"QuickView": "Quick view",
+			"AddAllToCart": "Add & Proceed",
+			"AlreadyInCart": "Already in cart",
+			"DrawerHeader": "Reorder",
+			"Discontinued": "Discontinued",
+			"LastOrdered": "Last ordered: {{quantity}} {{unit}}",
+			"Unit": "unit",
+			"Units": "units",
+			"SelectAll": "Select all"
+		}
+	},
+	"CatalogManager": {
+		"Header": {
+			"Title": "PriceLists",
+			"AddCatalog": "+ Pricelist"
+		},
+		"BottomSheet": {
+			"Header": {
+				"Title": " Showing result",
+				"Button": "Edit"
+			}
+		},
+		"Modal": {
+			"Button": {
+				"Cancel": "Cancel",
+				"Confirm": "Confirm"
+			},
+			"Import": {
+				"Heading": "Select a Pricelist to import"
+			},
+			"Export": {
+				"Heading": "Select a Pricelist to export",
+				"SubHeading": "Selected Pricelist data will be exported in a CSV file."
+			}
+		}
+	},
+	"ErrorScreens": {
+		"CartNotFoundScreen": {
+			"StartNewCart": "Start new cart",
+			"PreviousCart": "Use previous cart",
+			"ErrorMessage": "This cart has already been deleted/submitted as quote or an order by you or someone using the same login credentials. You can either start a new cart or use the previous cart to create a new order."
+		},
+		"CustomError": {
+			"UnavailableProduct": "Uh-oh, customisations for this product are unavailable",
+			"ErrorMessage": "This could have happened because someone removed all applicable modifiers for this product.",
+			"GoBack": "Go Back"
+		}
+	},
+	"Catalog": {
+		"CreateCatalog": "Create Pricelist",
+		"CreateCta": "Create",
+		"AddProductToCatalogText": "To add products, you need to create this Pricelist first",
+		"AddProductToExisitingCatalog": "To add more products, you need to save the Pricelist first",
+		"ProductAndPricing": "Product and pricing",
+		"ProductAndPricingSub": "Import products and pricing data to this Pricelist",
+		"SaveCta": "Save",
+		"DeleteHeading": "Don’t need this Pricelist anymore?",
+		"DeleteSubHeading": "Permanently delete this Pricelist",
+		"DeleteCta": "Delete cataog",
+		"CatalogCreated": "Pricelist created succesfully",
+		"CatalogDeleted": "Pricelist deleted succesfully",
+		"CatalogUpdated": "Pricelist updated succesfully",
+		"View": "View",
+		"Alert": "Changing Pricelist may change product availability and prices"
+	},
+	"VersionUpdate": {
+		"Title": "Critical update needed!",
+		"Para": "New features and improvements have been added! <br /> Refresh now to get enhanced experience."
+	},
+	"CustomProduct": {
+		"Modal": {
+			"Text": "You haven't added this custom product to your cart. Exiting will result in the discarding of your custom product. Do you wish to continue?",
+			"Cancel": "Cancel",
+			"Discard": "Discard",
+			"Title": "Discard custom product?",
+			"LimitCopy": "Please enter between {{min}} to {{max}} characters to ensure your message fits properly"
+		},
+		"Toast": {
+			"State": "success",
+			"Title": "All Done",
+			"SubTitle": "Customised Product added to cart"
+		},
+		"CustomText": {
+			"Required": "Required",
+			"SelectOptions": "Select options",
+			"SelectOption": "Select an option",
+			"SelectLongPress": "(Long press to enlarge the image)",
+			"Done": "Done",
+			"CustomizeProduct": "Customize product",
+			"EnterText": "Enter text"
+		}
+	},
+	"CartCustom": {
+		"Header": "Customization :"
+	},
+	"Assets": {
+		"Title": "One single place for all your files",
+		"SubTitle": "Manage your assets and also control the access for your files"
+	},
+	"ConfigureEmail": {
+		"Header": "Configure email",
+		"SendEmail": {
+			"AlertMessage": "Don't have a customer-facing email id yet?</br> Don't worry, we have got you covered. By default, mails will be sent via <b>noreply@wizcommerce.com</b>",
+			"Cancel": "Cancel",
+			"Connect": "Connect"
+		},
+		"EmailConnected": {
+			"AlertMessage": "Yayy!! Email successfully connected!",
+			"DisConnect": "Disconnect",
+			"Okay": "Okay"
+		},
+		"EmailDisConnected": {
+			"AlertMessage": "Your email is temporarily disconnected. Please re-connect to resume. Meanwhile, mails will be sent via <b>noreply@wizcommerce.com</b>",
+			"RemoveAccount": "Remove account",
+			"ReConnect": "Re-connect"
+		},
+		"DisConnectModal": {
+			"Title": "Disconnect Email",
+			"Body": "Are you sure you want to disconnect your account?",
+			"AlertMessage": "If no email is provided, mails will be sent via <b>noreply@wizcommerce.com</b>",
+			"Cancel": "Cancel",
+			"DisConnect": "Disconnect"
+		},
+		"EmailBody": {
+			"SendEmail": {
+				"Title": "Communicate with your customers and team via your email id",
+				"Label": "Enter Email ID",
+				"PlaceHolder": "ID@1L.com",
+				"ErrorMessage": "Invalid email address"
+			},
+			"EmailConnected": {
+				"Title": "Email you use to communicate with your customers and team"
+			}
+		}
+	},
+	"PopUpModal": {
+		"WizCommerce": "Sourcewiz is now WizCommerce!",
+		"ParaText": "Enjoy the sourcewiz features you know, now under WizCommerce!",
+		"ButtonText": "Got it"
+	},
+	"Payment": {
+		"SelectPayment": "Select preferred payment method for this order",
+		"SendEmailTo": "Send link to",
+		"UseCredits": "Use credits",
+		"SendLink": "Send Link",
+		"Save": "Save",
+		"NoCardAdded": "No card added",
+		"CollectPayment": "Collect payment",
+		"DirectPayment": "Direct payment",
+		"ShareReceipt": "Share receipt",
+		"ResendPaymentLink": "Resend payment link",
+		"PaymentReceiptShared": "Payment receipt shared",
+		"PaymentReceiptShareFailed": "Payment receipt share failed",
+		"PaymentLinkShared": "Payment link shared",
+		"PaymentLinkShareFailed": "Payment link share failed",
+		"EnterEmailShareReceipt": "Enter email where you want to share the receipt",
+		"EnterEmailResendPaymentLink": "Enter email where you want to send the payment link",
+		"SelectPaymentMethod": "Select payment method",
+		"TotalAmountDue": "Total Amount Due",
+		"AvailableCards": "Available cards",
+		"UseAvailableCredits": "Use available credits",
+		"Address": "Address",
+		"CopyFrom": "Copy from",
+		"ShowingAddress_one": "Showing {{count}} address",
+		"ShowingAddress_other": "Showing {{count}} addresses",
+		"Name": "Name : ",
+		"BillingAddress": "Billing Address : ",
+		"Default": "Default",
+		"CollectPaymentAgainstInvoice": "Collect payment against an invoice",
+		"MarkAsDefault": "Mark as default",
+		"MarkACHAsDefault": "Mark account as default",
+		"MarkCardAsDefault": "Mark card as default",
+		"RefundToSource": "Refund to Source",
+		"RefundAsCredits": "Refund as Credits",
+		"SavedCards": "Choose existing or add a new card",
+		"NoSavedCards": "Add at least one card to proceed",
+		"AddCard": "Add Card",
+		"NotifyOverEmail": "We will notify you over email once the refund is processed",
+		"CreditsAdded": "Credits added into your account",
+		"MoneyCredited": "Your refund request has been recorded",
+		"SelectCard": "Select card",
+		"AddNewACH": "Add account",
+		"SelectACH": "Select Account",
+		"AddNewCard": "Add new card",
+		"EmptyCard": "No card added",
+		"EmptyAch": "No account added",
+		"WizPayDashboard": "Dashboard",
+		"AchAlert": "By clicking Charge, you authorize us to initiate an automated clearing house (ACH) one-time debit in customer's name to customer's bank account indicated above. The amount of this transaction as noted above will be presented to customer's financial institution by the next business day. You further agree that once you click charge you may not revoke this authorization or cancel this payment.",
+		"Transactions": {
+			"LimitShowing": "Showing top 10,000 results",
+			"Showing": "Showing {{count}} results",
+			"SSRMLimitWarning": "We can retrieve up to 10,000 transactions at once. Please use filters and search options to explore more."
+		},
+		"Refund": {
+			"SelectTransactionsToRefund": "Select transactions to refund",
+			"ShowingNoOfTransactions_one": "Showing {{count}} transaction",
+			"ShowingNoOfTransactions_other": "Showing {{count}} transactions",
+			"ShowMore": "View more",
+			"ShowLess": "View less",
+			"AmountToBeRefunded": "Amount to be refunded",
+			"ReasonForRefund": "Reason for refund",
+			"ChooseRefundDestination": "Choose refund destination",
+			"RefundDestinationInfo": "Amount will be refunded to the sources mentioned below",
+			"RefundButtonText": "Refund",
+			"AmountRefunded": "Amount refunded"
+		},
+		"Footer": {
+			"Authorize": "Authorize"
+		},
+		"PreAuth": {
+			"AmountToBeAuthorized": "Amount to be authorized",
+			"TotalAmount": "Total amount",
+			"PastAuthorizedTransactions": "Past authorized transactions",
+			"ShowingNoOfTransactions_one": "Showing {{count}} transaction",
+			"ShowingNoOfTransactions_other": "Showing {{count}} transactions",
+			"Void": "Void",
+			"PaymentSummary": "Payment summary",
+			"ViewMore": "View more",
+			"ViewLess": "View less"
+		},
+		"EditRecurringPaymentDrawer": {
+			"Header": "Recurring payment details",
+			"Active": "Active",
+			"PaymentDetails": "Payment details",
+			"Save": "Save",
+			"Closed": "Closed",
+			"UpcomingPayment": "Upcoming payment",
+			"PaymentSchedule": "Payment schedule",
+			"FailedPaymentCopy": "Please collect this payment manually"
+		},
+		"VoidAuthModal": {
+			"Void": "Void",
+			"Cancel": "Cancel",
+			"Yes": "Yes",
+			"SubTitle": "Are you sure you want to void authorization?",
+			"Title": "Void auth",
+			"SuccessToastTitle": "Void Authorization Successful",
+			"ErrorToastTitle": "Void Authorization Failed"
+		},
+		"ProgressWillBeLost": "Your progress will be lost",
+		"ProgressLostModalText": "Changes you made may not be saved. Are you sure you want to leave?",
+		"ViewCardModal": {
+			"CardDetails": "Card details",
+			"Done": "Done"
+		},
+		"ChoosePaymentOptions": "Choose existing or add a new payment option",
+		"ChooseLaterTitle": "I'll select a card later",
+		"ChooseLaterSubTitle": "You can add your payment details later"
+	},
+	"Notifications": {
+		"Notifications": "Notifications",
+		"NoNewNotifications": "No new notifications",
+		"NotificationDismissed": "Notification Dismissed"
+	},
+	"Product": {
+		"Header": {
+			"Recommend": "Recommended",
+			"Category": "Category",
+			"Collection": "Collections"
+		},
+		"Similar": "View similar"
+	},
+	"Files": {
+		"Title1": "One single place for all your files",
+		"Title2": "Manage your assets and also control the access for your files",
+		"Folder": "+ Folder",
+		"Upload": "Upload",
+		"Cancel": "Cancel",
+		"Create": "Create",
+		"Clear": "Clear",
+		"NewMessage": "New Message",
+		"FindAttached": "Please find attached",
+		"Send": "Send",
+		"PreviewUnavailable": "No Preview Available",
+		"RemoveAccess": "Remove Access",
+		"GrantAccess": "Grant Access",
+		"Save": "Save",
+		"CreateFolder": "Create new folder",
+		"EnterFolderName": "Please Enter a Folder Name!!",
+		"FolderAlreadyExist": "Folder with same name already exist !!"
+	},
+	"Settings": {
+		"Buyer": {
+			"listing": "Customer Listing & Filters"
+		},
+		"AddExcel": "+ Add Excel template",
+		"AddEditBuyer": "Add customer attribute",
+		"AddTemplate": "Add template",
+		"Charges": "Order and quote charges",
+		"CTA": {
+			"cancel": "Cancel",
+			"save": "Save",
+			"hide": "Hide"
+		},
+		"deleteSection": {
+			"message": "Are you sure you want to Hide this section? All the attributes inside this section will be deleted."
+		},
+		"QuickAdd": {
+			"message": "Do you want this section to be part of quick add form?"
+		},
+		"Label": {
+			"header": "Label settings",
+			"template": "Label templates",
+			"select": "Select label templates and details",
+			"add": "+ Add label"
+		},
+		"BuyerPermission": {
+			"Header": "Customer form permisions",
+			"NoConfig": "Oops! It looks like the Customer permission configuration is missing. Click ",
+			"Generate": "to generate the default configuration.",
+			"Section": "Customer section permission",
+			"Here": "here ",
+			"Attribute": "Customer attributes/fields permission"
+		},
+		"ShowroomMode": {
+			"EnableMode": "Enable showroom mode",
+			"EnableOrder": "Enable order and customer permissions for active users, overriding User Management Settings",
+			"DefineUser": "Define users and set access permissions for their orders and customers.",
+			"AddUserPermission": "+ Add user permission"
+		}
+	},
+	"MultipleTearsheet": {
+		"Title": "Download PDF",
+		"PDF": "PDF",
+		"SuspenseText": "Fetching the preview for you, hang in there!",
+		"Download": "Generate",
+		"ToggleSubText": "Enable to show products with prices of the selected Pricelist",
+		"ChooseTemplate": "Choose Template",
+		"TemplateSubText": "Select your desired pdf template",
+		"PreviewSheetTitle": "Preview PDF"
+	},
+	"OrderTag": {
+		"TagEnabled": "Order tag is now <b>enabled</b> and ready for use.",
+		"TagNotEnabled": "Order tag is currently <b>disabled</b>. To activate order tag settings, please enable them in your subscription preferences.",
+		"ParaText": "Define a list of custom order tags to be displayed on order and quote",
+		"AddTag": "+ Add order tag",
+		"SelectChipColor": "Select chip color"
+	},
+	"PriceEdit": {
+		"SinglePrice": "Current price of the product will updated. You will not be able to change it later.",
+		"BulkPrice": "Price of {{ProductCount}} products will be updated. Do you want to continue?"
+	}
+}

@@ -1,0 +1,15 @@
+.MuiAlert-message {
+	width: 100%;
+
+}
+.MuiAlert-standardInfo {
+	background: #e1edff !important;
+}
+
+.hide-select-all .ag-header-select-all {
+	opacity: 0;
+}
+
+.ag-checkbox-input {
+	cursor: pointer;
+}

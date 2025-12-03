@@ -1,0 +1,17 @@
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column !important;
+	gap:8px;
+	overflow-x:hidden;
+}
+
+.body {
+	height: 94vh;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+.body::-webkit-scrollbar {
+	display: none;
+}

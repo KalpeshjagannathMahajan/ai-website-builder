@@ -1,0 +1,95 @@
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles((theme: any) => ({
+	selected_items_icons_hover: {
+		'&:hover': {
+			backgroundColor: theme?.user_drive?.user_drive_main?.style?.hover_items_background_color,
+		},
+	},
+	loader_container: {
+		display: 'flex',
+		position: 'fixed',
+		top: 0,
+		left: 0,
+		justifyContent: 'center',
+		alignItems: 'center',
+		backgroundColor: theme?.user_drive?.user_drive_main?.style?.loader_background_color,
+		zIndex: 100000,
+		width: '100vw',
+		height: '100vh',
+	},
+	empty_screen: {
+		width: '100%',
+		height: '80vh',
+		display: 'flex',
+		alignItems: 'center',
+		justifyContent: 'center',
+	},
+	empty_container: {
+		backgroundColor: theme?.user_drive?.user_drive_main?.style?.empty_background_color,
+		padding: 100,
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+		justifyContent: 'center',
+		gap: 20,
+		borderRadius: 20,
+	},
+	selected_header_container: {
+		backgroundColor: theme?.user_drive?.user_drive_main?.style?.selected_header_container_background_color,
+		display: 'flex',
+		top: 110,
+		justifyContent: 'center',
+		alignItems: 'center',
+		zIndex: 101,
+		padding: '7px 0 0',
+		width: '100%',
+		position: 'sticky',
+		marginTop: 8,
+	},
+	selected_header: {
+		padding: 10,
+		paddingLeft: 30,
+		borderRadius: 10,
+		backgroundColor: theme?.user_drive?.user_drive_main?.style?.selected_header_background_color,
+		display: 'flex',
+		flexDirection: 'row',
+		alignItems: 'center',
+		width: '100%',
+	},
+	icons_container: {
+		marginLeft: 'auto',
+		display: 'flex',
+		flexDirection: 'row',
+	},
+	folders_container: {
+		display: 'flex',
+		flexDirection: 'column',
+		zIndex: 100,
+		position: 'relative',
+	},
+	folders: {
+		marginTop: 14,
+		display: 'grid',
+		gridRowGap: '1vw',
+		gridColumnGap: '1vw',
+	},
+	folder_skeleton: {
+		backgroundColor: theme?.user_drive?.user_drive_main?.style?.folder_skeleton_background_color,
+		overflow: 'hidden',
+		borderRadius: 10,
+		display: 'flex',
+		flexDirection: 'row',
+		gap: 10,
+		padding: 25,
+		width: '100%',
+	},
+	files_skeleton: {
+		backgroundColor: theme?.user_drive?.user_drive_main?.style?.files_skeleton_background_color,
+		overflow: 'hidden',
+		borderRadius: 10,
+		margin: 10,
+	},
+}));
+
+export default useStyles;

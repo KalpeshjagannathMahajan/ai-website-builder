@@ -1,0 +1,9 @@
+node_modules
+.env*
+.eslintrc.cjs
+jest.config.js
+vite.config.ts
+src/vite-env.d.ts
+src/old-repo/*
+tsconfig.json
+tsconfig.node.json

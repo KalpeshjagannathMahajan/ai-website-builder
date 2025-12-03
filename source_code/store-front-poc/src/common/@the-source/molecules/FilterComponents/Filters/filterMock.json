@@ -1,0 +1,706 @@
+[
+	{
+		"meta": {
+			"key": "category",
+			"type": "category"
+		},
+		"name": "Category",
+		"priority": 0,
+		"data": {
+			"options": [
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 1107,
+											"name": "Carpets",
+											"id": "ffa6c8c1-1a9a-454e-b0c4-24000b2baa0b"
+										},
+										{
+											"children": [],
+											"count": 181,
+											"name": "Mats",
+											"id": "d06e887d-1fe6-40f5-95d9-a8cac386b0c5"
+										},
+										{
+											"children": [],
+											"count": 116,
+											"name": "Area Rugs",
+											"id": "3e785307-e9d2-46ec-bc46-1e84fce242cd"
+										}
+									],
+									"count": 1404,
+									"name": "Rugs & Pads",
+									"isSelectedCategory": true,
+									"isSelected": true,
+									"id": "290adf1c-30dc-42bc-9f37-e6eae979fc3a"
+								},
+								{
+									"children": [
+										{
+											"children": [
+												{
+													"children": [],
+													"count": 1226,
+													"name": "Wall Decal",
+													"id": "53fc4d83-94a0-4362-8186-b986fdc4cc27"
+												},
+												{
+													"children": [],
+													"count": 40,
+													"name": "Wallpaper",
+													"id": "ab5fa06c-0aae-4c54-aa89-5540ce66a329"
+												},
+												{
+													"children": [],
+													"count": 9,
+													"name": "Wall Sticker Mural",
+													"id": "1cd8923c-a2d8-4032-9c45-423da3c0c10f"
+												}
+											],
+											"count": 1275,
+											"name": "Wall Stickers",
+											"id": "ee59ee21-90d2-44f1-ba8d-db1f120434d9"
+										},
+										{
+											"children": [],
+											"count": 120,
+											"name": "Paintings",
+											"id": "51531e5c-2a28-4959-ab06-4e506add99ea"
+										},
+										{
+											"children": [],
+											"count": 1,
+											"name": "Posters & Prints",
+											"id": "093cd607-c254-407e-ac00-0248da45e21d"
+										}
+									],
+									"count": 1396,
+									"name": "Artwork",
+									"id": "27127c0c-13c6-4415-910b-179074283cdc"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 27,
+											"name": "Draperies & Curtains",
+											"id": "8a588be9-4adf-4bc7-b98a-358f38c5d371"
+										}
+									],
+									"count": 29,
+									"name": "Window Treatments",
+									"id": "2fd8bee1-1a9f-4378-80df-20b9f643d1ed"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 11,
+											"name": "Rugs",
+											"id": "1d0debc0-dd77-43af-9cd4-73275e0eecdb"
+										}
+									],
+									"count": 21,
+									"name": "Kids Room Decor",
+									"id": "2c69fa80-ce76-482c-bf8a-75f3b65471cf"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 10,
+											"name": "Cushion Cover",
+											"id": "8e4984c8-2db6-411a-82f5-2c2fae59779a"
+										}
+									],
+									"count": 16,
+									"name": "Slipcovers",
+									"id": "b68f9134-324d-4ab3-9a4d-613a52a01d67"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 1,
+											"name": "Decorative Accessories",
+											"id": "dd67b848-6d11-41fc-b43c-8aa0a15120bd"
+										}
+									],
+									"count": 13,
+									"name": "Home Decor Accents",
+									"id": "1eec53ec-b075-44ba-908f-283a85da11b5"
+								},
+								{
+									"children": [],
+									"count": 9,
+									"name": "Doormats",
+									"id": "52776f27-8ad7-4b50-beac-6b88ddd129ff"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 4,
+											"name": "Wall Clocks",
+											"id": "dddb3498-9102-4fdb-81ee-475ed88a05e6"
+										}
+									],
+									"count": 4,
+									"name": "Clocks",
+									"id": "cddb4042-cda4-4ee5-a73b-ce5a1b51d745"
+								},
+								{
+									"children": [],
+									"count": 3,
+									"name": "Decorative Pillows",
+									"id": "e678677f-e551-46d2-808d-2914f36f2287"
+								},
+								{
+									"children": [],
+									"count": 1,
+									"name": "Gift Baskets",
+									"id": "a43dd08a-d5b7-4db7-a9c4-b6e379a89bd1"
+								}
+							],
+							"count": 2888,
+							"name": "Home Decor",
+							"id": "1712c045-a943-40fe-8b98-914ec800f9c4"
+						},
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 31,
+											"name": "Bed Blankets",
+											"id": "398dcc19-d355-469f-913a-4773cef3798e"
+										}
+									],
+									"count": 31,
+									"name": "Blankets & Throws",
+									"id": "db619ce6-b514-4472-b5ef-e7c4092be23c"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 1,
+											"name": "Bed Pillows",
+											"id": "abf7edaf-16f5-491d-8613-01c5c9282fb9"
+										},
+										{
+											"children": [],
+											"count": 1,
+											"name": "Specialty Medical Pillows",
+											"id": "55e78602-0aee-4f23-9986-ccd2be768d6e"
+										}
+									],
+									"count": 2,
+									"name": "Bed Pillows & Positioners",
+									"id": "75d09683-f621-4f10-84be-076a81692e25"
+								}
+							],
+							"count": 33,
+							"name": "Bedding",
+							"id": "58663747-07d1-4e37-b879-b6fc3e92f15f"
+						},
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 4,
+											"name": "Room Divider",
+											"id": "cf6262d5-9850-4106-8cae-d2d820f4021f"
+										},
+										{
+											"children": [],
+											"count": 3,
+											"name": "Poufs",
+											"id": "d786fbb1-5ded-4fc0-a491-f93b723fb6a5"
+										}
+									],
+									"count": 7,
+									"name": "Accent Furniture",
+									"id": "1727ba75-8c54-4bd5-a539-6eb907e58b9d"
+								},
+								{
+									"children": [],
+									"count": 1,
+									"name": "Kitchen & Dining Furniture",
+									"id": "ecf649a1-d005-4be8-9e77-d7c3baed326b"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 1,
+											"name": "Chairs",
+											"id": "e79bd7a1-a1bc-43ff-9fdc-2a96b22d8456"
+										}
+									],
+									"count": 1,
+									"name": "Living Room Furniture",
+									"id": "c4946f3f-5aea-4ff7-bd9b-1a4fed15d171"
+								},
+								{
+									"children": [],
+									"count": 1,
+									"name": "Game & Recreation Room Furniture",
+									"id": "11af97fc-6dca-4f6d-af74-885b636307e5"
+								}
+							],
+							"count": 10,
+							"name": "Furniture",
+							"id": "b5cc1308-e42e-4382-8816-6016fe1b3ee0"
+						},
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 6,
+											"name": "Bath Mats & Rugs",
+											"id": "0edb86f1-4cdc-4b56-9745-5a4eccea5663"
+										}
+									],
+									"count": 6,
+									"name": "Bathroom Accessories",
+									"id": "3a300447-f19e-4dcd-a937-30ca93c5adc9"
+								},
+								{
+									"children": [
+										{
+											"children": [],
+											"count": 1,
+											"name": "Bath Towels",
+											"id": "ff2527ad-947e-4422-b8ae-28020ad65a69"
+										}
+									],
+									"count": 1,
+									"name": "Towels",
+									"id": "0a125c0a-329a-4253-baf4-fb1c5b1da331"
+								}
+							],
+							"count": 7,
+							"name": "Bath",
+							"id": "c27dc3d6-3c0d-4ba2-8821-fdade280640d"
+						}
+					],
+					"count": 2935,
+					"name": "Home & Kitchen",
+					"id": "123a3794-fc62-4949-8765-268fa45491d5"
+				},
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"children": [],
+									"count": 1107,
+									"name": "Carpets",
+									"id": "c07ac764-ea6d-4168-8c1a-a98c9e47e227"
+								},
+								{
+									"children": [],
+									"count": 181,
+									"name": "Mats",
+									"id": "c9752b0c-33b3-4362-a0ec-a2e1f0e34021"
+								},
+								{
+									"children": [],
+									"count": 116,
+									"name": "Area Rugs",
+									"id": "e85fb628-44a7-4f60-9624-4e63c276b55a"
+								}
+							],
+							"count": 1404,
+							"name": "Rugs & Pads",
+							"isSelectedCategory": true,
+							"isSelected": true,
+							"id": "826863f0-a559-4427-bf95-24e44935954a"
+						}
+					],
+					"count": 235,
+					"name": "Clothing",
+					"id": "4abb6eed-5388-4991-8739-95c22b78edcc"
+				}
+			],
+			"applied": ["Home & Kitchen > Home Decor > Rugs & Pads", "Clothing"]
+		}
+	},
+	{
+		"meta": {
+			"key": "sub_category",
+			"type": "multi-select",
+			"index_type": null,
+			"is_primary": true
+		},
+		"name": "Sub Category",
+		"priority": 5,
+		"data": {
+			"options": {
+				"ABC": 12,
+				"ASD": 1,
+				"LKJ": 23,
+				"OPN": 22
+			}
+		}
+	},
+	{
+		"meta": {
+			"key": "costing_status",
+			"type": "select",
+			"dtype": "select",
+			"index_type": null,
+			"is_primary": false
+		},
+		"name": "Costing Status",
+		"priority": 12,
+		"data": {
+			"options": {
+				"Added": 12,
+				"Blank": 1
+			}
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.Color",
+			"type": "multi-select",
+			"dtype": "csv",
+			"index_type": "multi-select",
+			"is_primary": false,
+			"step_increment": 1
+		},
+		"name": "Color",
+		"priority": 1,
+		"data": {
+			"options": {
+				"Green": 12,
+				"Blue": 1,
+				"Red": 23,
+				"Orange": 22
+			}
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.Shape",
+			"type": "multi-select",
+			"dtype": "csv",
+			"index_type": "multi-select",
+			"is_primary": false
+		},
+		"name": "Shape",
+		"priority": 8,
+		"data": {
+			"options": {
+				"ABC": 12,
+				"ASD": 1,
+				"LKJ": 23,
+				"OPN": 22
+			},
+			"applied": ["LKJ", "ASD"]
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.Season",
+			"type": "multi-select",
+			"dtype": "csv",
+			"index_type": "multi-select",
+			"is_primary": true,
+			"step_increment": 1
+		},
+		"name": "Season",
+		"priority": 6,
+		"data": {
+			"options": {
+				"ABC": 12,
+				"ASD": 1,
+				"LKJ": 23,
+				"OPN": 22
+			}
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.Series",
+			"type": "multi-select",
+			"index_type": "multi-select",
+			"is_primary": false
+		},
+		"name": "Series",
+		"priority": 30
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.Exclusive For",
+			"type": "multi-select",
+			"dtype": "csv",
+			"index_type": "multi-select",
+			"is_primary": false
+		},
+		"name": "Exclusive For",
+		"priority": 12
+	},
+	{
+		"meta": {
+			"key": "status",
+			"type": "select",
+			"index_type": null,
+			"is_primary": true,
+			"dtype": "select"
+		},
+		"name": "Status",
+		"priority": 3,
+		"data": {
+			"options": {
+				"Published": 12,
+				"Draft": 1
+			},
+			"applied": ["Published"]
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.Size",
+			"type": "multi-select",
+			"dtype": "csv",
+			"index_type": "multi-select",
+			"is_primary": false,
+			"step_increment": 1
+		},
+		"name": "Size",
+		"priority": 15,
+		"data": {
+			"options": {
+				"18x1818x1818x1818x1818x1818x1818x1818x18": 45,
+				"12.5 cm": 30,
+				"60X90 CM": 26,
+				"150X230 CM": 13,
+				"160X110 CM": 12,
+				"3X5 Ft": 11,
+				"30X30 CM": 9,
+				"H-5 CM": 9,
+				"16x16 inches": 8,
+				"40X80 CM": 8,
+				"L-40X50 CM": 8,
+				"10 CM": 7,
+				"20X15 CM": 6,
+				"20x20": 6,
+				"20x20 inches": 6,
+				"32X24 CM": 6,
+				"43X30 CM": 6,
+				"120X80 CM": 5,
+				"12X20 inches": 5,
+				"333.0": 5,
+				"33X28 CM": 5,
+				"36X36 CM": 5,
+				"100X75 CM": 4,
+				"12.0": 4,
+				"123.0": 4,
+				"13123.0": 4,
+				"25X28 Cm": 4,
+				"28x28 cm": 4,
+				"36X30 CM": 4,
+				"38X25X28 CM": 4,
+				"38X34 Cm": 4,
+				"42X30 CM": 4,
+				"42X30X10 CM": 4,
+				"42X31 CM": 4,
+				"46X34 CM": 4,
+				"50X50 CM": 4,
+				"L-40X17X7 CM": 4,
+				"M-38X14X5 CM": 4,
+				"S-35X13X4 CM": 4,
+				"11 Inch": 3,
+				"110X160 CM": 3,
+				"12x18 inches": 3,
+				"12x20": 3,
+				"13X17 CM": 3,
+				"150X110 CM": 3,
+				"18X18X6 CM": 3,
+				"20X18 CM": 3,
+				"23X24 CM": 3,
+				"24X18 CM": 3,
+				"25X25 CM": 3,
+				"25X26 CM": 3,
+				"26X32 CM": 3,
+				"30X28 CM": 3,
+				"30X36 Cm": 3,
+				"33X25 CM": 3,
+				"34X30 CM": 3,
+				"36X24 CM": 3,
+				"36X40 CM": 3,
+				"38X30 CM": 3,
+				"38X38 CM": 3,
+				"40X28X28 CM": 3,
+				"40X29 CM": 3,
+				"40X30 CM": 3,
+				"40X40 CM": 3,
+				"43X32 CM": 3,
+				"43x43 CM": 3,
+				"45X30 CM": 3,
+				"46X28 CM": 3,
+				"48X26 CM": 3,
+				"5X5 CM": 3,
+				"L-20X20X10 CM": 3,
+				"W-8 CM": 3,
+				"large": 3,
+				"102 CM": 2,
+				"10X10 CM": 2,
+				"110X110 cm": 2,
+				"120X87 CM": 2,
+				"14X16 CM": 2,
+				"14x22": 2,
+				"160X97 CM": 2,
+				"16X14 CM": 2,
+				"19X14 CM": 2,
+				"21X21 CM": 2,
+				"22X22 CM": 2,
+				"22x22": 2,
+				"24.0": 2,
+				"24X14 CM": 2,
+				"25X15 CM": 2,
+				"25X20 CM": 2,
+				"26X20 CM": 2,
+				"27X17 CM": 2,
+				"27X18 CM": 2
+			}
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.Vendor Name",
+			"type": "multi-select",
+			"dtype": "csv",
+			"index_type": "multi-select",
+			"is_primary": false,
+			"step_increment": 1
+		},
+		"name": "Vendor Name",
+		"priority": 2,
+		"data": {
+			"options": {
+				"ABC": 12,
+				"ASD": 1,
+				"LKJ": 23,
+				"OPN": 22
+			}
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.UOM",
+			"type": "range",
+			"dtype": "uom",
+			"uomName": "uom",
+			"uomFamily": "Weight",
+			"index_type": "range",
+			"is_primary": true,
+			"position": "suffix",
+			"step_increment": 1,
+			"options": {
+				"kg": "Kilogram",
+				"g": "Gram"
+			},
+			"conversion_factors": {
+				"base_unit": "g",
+				"factor": {
+					"kg": 1000,
+					"g": 1
+				}
+			}
+		},
+		"name": "Unit Of Messure",
+		"priority": 12,
+		"data": {}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.TEST PRICE 1",
+			"type": "range",
+			"dtype": "price",
+			"uomName": "currency",
+			"uomFamily": "Currency",
+			"index_type": "range",
+			"is_primary": true,
+			"step_increment": 1,
+			"position": "prefix",
+			"options": {
+				"usd": "USD",
+				"inr": "INR",
+				"gbp": "GBP",
+				"eur": "EUR"
+			},
+			"conversion_factors": {
+				"base_unit": "usd",
+				"factor": {
+					"usd": 1,
+					"inr": 0.15,
+					"gbp": 20,
+					"eur": 32
+				}
+			}
+		},
+		"name": "Selling Price ",
+		"priority": 4,
+		"data": {
+			"options": {
+				"min": 20,
+				"max": 400,
+				"unit": "usd"
+			},
+			"applied": [25, 300, "usd"]
+		}
+	},
+	{
+		"meta": {
+			"key": "computedAttributes.SingleSelect",
+			"type": "select",
+			"dtype": "select",
+			"index_type": "multi-select",
+			"is_primary": false
+		},
+		"name": "SingleSelect",
+		"priority": 12,
+		"data": {
+			"options": {
+				"ABC": 12,
+				"ASD": 1,
+				"LKJ": 23,
+				"OPN": 22
+			}
+		}
+	},
+	{
+		"meta": {
+			"key": "date_created_utc",
+			"type": "date",
+			"index_type": null,
+			"is_primary": false
+		},
+		"name": "Date Created",
+		"priority": 40
+	},
+	{
+		"meta": {
+			"key": "date_updated_utc",
+			"type": "date",
+			"index_type": null,
+			"is_primary": false
+		},
+		"name": "Date Updated",
+		"priority": 43
+	}
+]

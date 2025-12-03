@@ -1,0 +1,141 @@
+{
+    "saved_bank_accounts": {
+        "1c4accfc-2dfc-4bce-8b18-23494758f2e2": {
+            "payment_method_type": "ach",
+            "payment_method_id": "1c4accfc-2dfc-4bce-8b18-23494758f2e2",
+            "title": "M Tarun",
+            "sub_title": "XXXXXX1934",
+            "bank_account_type": "Business checking",
+            "country": "USA",
+            "is_default": false,
+            "is_selected": false,
+            "is_usable_in_vt": true,
+            "is_tokenized": true,
+            "state_label": null,
+            "country_label": "United States of America"
+        }
+    },
+    "subscription_form": [
+        {
+            "key": "payment_details",
+            "name": "Recurring payment",
+            "priority": 1,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "Recurring payment",
+                    "placeholder": "Recurring payment name",
+                    "label": "",
+                    "type": "text",
+                    "value": "",
+                    "priority": 0,
+                    "required": true,
+                    "disabled": false
+                },
+                {
+                    "id": "total_amount",
+                    "name": "Payable amount",
+                    "label": "",
+                    "type": "amount",
+                    "value": "",
+                    "priority": 3,
+                    "required": true,
+                    "disabled": false
+                },
+                {
+                    "id": "start_date",
+                    "name": "Start date",
+                    "label": "",
+                    "type": "date",
+                    "value": "",
+                    "priority": 3,
+                    "required": true,
+                    "disabled": false
+                },
+                {
+                    "id": "end_date",
+                    "name": "End date",
+                    "label": "",
+                    "type": "date",
+                    "value": "",
+                    "priority": 3,
+                    "required": true,
+                    "disabled": false
+                },
+                {
+                    "id": "frequency",
+                    "name": "Frequency",
+                    "label": "",
+                    "type": "single_select",
+                    "value": "",
+                    "priority": 3,
+                    "required": true,
+                    "disabled": false,
+                    "options": [
+                        {
+                            "label": "7 Days",
+                            "value": "7_days"
+                        },
+                        {
+                            "label": "14 Days",
+                            "value": "14_days"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scheduled_payment": {
+        "recurring_payment": 500,
+        "schedule": [
+            {
+                "date": "08/28/2023",
+                "amount": 500
+            },
+            {
+                "date": "08/28/2023",
+                "amount": 500
+            },
+            {
+                "date": "08/28/2023",
+                "amount": 500
+            },
+            {
+                "date": "08/28/2023",
+                "amount": 500
+            }
+        ]
+    },
+    "subscription_schedule": [
+        {
+            "id": "uuid",
+            "date": "08/28/2023",
+            "amount": "float",
+            "payment_method_id": "uuid",
+            "status": "Pending",
+            "title": "Ending in 1111",
+            "sub_title": "Expiry 11/41",
+            "card_type": "visa"
+        },
+        {
+            "id": "uuid",
+            "date": "08/28/2023",
+            "amount": "float",
+            "payment_method_id": "uuid",
+            "status": "Completed",
+            "title": "Ending in 1111",
+            "sub_title": "Expiry 11/41",
+            "card_type": "visa"
+        },
+        {
+            "id": "uuid",
+            "date": "08/28/2023",
+            "amount": "float",
+            "payment_method_id": "uuid",
+            "status": "Failed",
+            "title": "Ending in 1111",
+            "sub_title": "Expiry 11/41",
+            "card_type": "visa"
+        }
+    ]
+}

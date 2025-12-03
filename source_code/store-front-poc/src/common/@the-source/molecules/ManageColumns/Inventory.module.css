@@ -1,0 +1,13 @@
+.inventory {
+	width: 100%;
+	padding: 3.2rem;
+	height: 80vh;
+	border-radius: 8px;
+	background-color: white;
+}
+
+.header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}

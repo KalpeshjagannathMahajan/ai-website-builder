@@ -1,0 +1,114 @@
+.container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	/* overflow: auto; */
+	justify-content: center;
+}
+
+.layout {
+	display: flex;
+	flex-direction: column !important;
+	max-width: 650px;
+	align-items: center;
+	margin: 4.8rem;
+	justify-content: center;
+	border-radius: 1.6rem;
+}
+.innerContainer {
+	justify-content: center;
+	width: 100%;
+	padding: 8rem 8rem;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.6rem;
+	width: 100%;
+}
+
+.companyLogo {
+	margin-bottom: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginBtnGrid {
+	width: 100%;
+	margin-top: 4rem;
+}
+
+.formGrid{
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.headerContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.iconLeft {
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.titleGrid {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 32px;
+}
+
+.bodyGrid {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 6px;
+}
+
+.logo {
+	height: 47px;
+	width: auto;
+}
+
+.illustrationImg {
+	height: 96px;
+	width: 96px;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+	margin-top: 50px;
+}
+
+.bodyText{
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.innerContainer {
+		padding: 6.4rem 2rem;
+	}
+	.layout {
+		margin: 2.4rem;
+	}
+}
+
+input:-webkit-autofill {
+	margin: 4px;
+	padding: 13px;
+	z-index: 0;
+}

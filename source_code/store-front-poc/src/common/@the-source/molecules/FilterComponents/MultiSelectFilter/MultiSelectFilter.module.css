@@ -1,0 +1,43 @@
+.red-dot {
+	height: 0.5em;
+	width: 0.5em;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.5em;
+	margin-bottom: 0.1em;
+}
+
+.content-container {
+	position: relative;
+	height: 20vh;
+	overflow-y: scroll;
+}
+
+.content-container::-webkit-scrollbar {
+	display: none;
+	/* Hide the scrollbar for WebKit-based browsers (e.g., Chrome, Safari) */
+}
+
+.sidebar-filter-container {
+	overflow: scroll;
+	margin-top: -1em;
+}
+
+.sidebar-filter-container::-webkit-scrollbar {
+	display: none;
+	/* Hide the scrollbar for WebKit-based browsers (e.g., Chrome, Safari) */
+}
+
+.bottom-button-container {
+	position: sticky;
+	bottom: 0;
+	padding: 0.25em 1em;
+	padding-bottom: 1em;
+}
+
+.top-sticky-container {
+	position: sticky;
+	top: 0;
+	padding: 1.2rem 1rem;
+	z-index: 9999;
+}

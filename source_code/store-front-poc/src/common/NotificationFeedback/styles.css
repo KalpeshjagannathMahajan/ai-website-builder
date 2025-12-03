@@ -1,0 +1,41 @@
+.flying_feedback {
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	animation: yAxis 1s infinite cubic-bezier(0.3, 0.27, 0.07, 1.2);
+}
+
+@keyframes yAxis {
+	100% {
+		animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+		transform: translateY(-45vh);
+	}
+}
+
+.flying_image {
+	height: 60px;
+	width: 60px;
+	animation: vanish 1s infinite;
+}
+
+.unseen_nofitication_animation {
+	animation: blinker 1000ms ease-in-out 00ms infinite;
+}
+
+@keyframes vanish {
+	100% {
+		height: 20px;
+		width: 20px;
+		transform: translateX(20px);
+	}
+}
+
+@keyframes blinker {
+	100% {
+		scale: 1.5;
+	}
+}

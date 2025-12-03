@@ -1,0 +1,22 @@
+.range-filter-box {
+	display: inline-flex;
+	white-space: nowrap;
+	padding: 0em 1em 0em 1.4em;
+	cursor: pointer;
+	/* min-width: 10em; */
+}
+
+.red-dot {
+	height: 0.5em;
+	width: 0.5em;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.5em;
+	margin-bottom: 0.1em;
+}
+
+.range_filter_label{
+	height: auto;
+	display: flex;
+	align-items: center;
+}

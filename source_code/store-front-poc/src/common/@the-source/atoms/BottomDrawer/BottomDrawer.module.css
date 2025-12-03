@@ -1,0 +1,21 @@
+.bottom_container {
+	display: flex;
+	padding-bottom: 0px;
+	flex-direction: column;
+	gap: 1.6rem;
+	flex-shrink: 0;
+	border-radius: 1.6rem 1.6rem 0px 0px;
+	background: var(--Background-Paper, #f7f8fa);
+}
+.header_component {
+	display: flex;
+	padding: 1rem 2rem 1rem 2rem;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 2rem 2rem 0px 0px;
+	border-bottom: 1px solid var(--Divider, rgba(0, 0, 0, 0.12));
+	background: var(--Background-Paper, #f7f8fa);
+}
+.content_container {
+  padding: 0rem 2rem 1rem 2rem;
+}

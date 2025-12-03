@@ -1,0 +1,1 @@
+export { mockProductList } from './mockData';
