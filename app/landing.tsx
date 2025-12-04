@@ -1,86 +1,112 @@
 "use client";
 
-// useState not currently used but kept for future interactivity
-import Link from "next/link";
+import Image from "next/image";
 
 // Import shared components
 import { HeaderProvider } from "@/components/shared/header/HeaderContext";
-// import HeaderBrandKit from "@/components/shared/header/BrandKit/BrandKit"; // Not used in current implementation
-import HeaderWrapper from "@/components/shared/header/Wrapper/Wrapper";
-import HeaderDropdownWrapper from "@/components/shared/header/Dropdown/Wrapper/Wrapper";
-import ButtonUI from "@/components/ui/shadcn/button";
-
-// Import hero section components
-import HomeHeroBackground from "@/components/app/(home)/sections/hero/Background/Background";
-import { BackgroundOuterPiece } from "@/components/app/(home)/sections/hero/Background/BackgroundOuterPiece";
-import HomeHeroBadge from "@/components/app/(home)/sections/hero/Badge/Badge";
-import HomeHeroPixi from "@/components/app/(home)/sections/hero/Pixi/Pixi";
-import HomeHeroTitle from "@/components/app/(home)/sections/hero/Title/Title";
 import HeroInput from "@/components/app/(home)/sections/hero-input/HeroInput";
-import { Connector } from "@/components/shared/layout/curvy-rect";
-import HeroFlame from "@/components/shared/effects/flame/hero-flame";
-import FirecrawlIcon from "@/components/FirecrawlIcon";
-import FirecrawlLogo from "@/components/FirecrawlLogo";
 
 export default function LandingPage() {
   return (
     <HeaderProvider>
-      <div className="min-h-screen bg-background-base">
-        {/* Header/Navigation Section */}
-        <HeaderDropdownWrapper />
-
-        <div className="sticky top-0 left-0 w-full z-[101] bg-background-base header">
-          <div className="absolute top-0 cmw-container border-x border-border-faint h-full pointer-events-none" />
-          <div className="h-1 bg-border-faint w-full left-0 -bottom-1 absolute" />
-          
-          <div className="cmw-container absolute h-full pointer-events-none top-0">
-            <Connector className="absolute -left-[10.5px] -bottom-11" />
-            <Connector className="absolute -right-[10.5px] -bottom-11" />
+      <div className="min-h-screen bg-white relative">
+        {/* Header/Topbar Section */}
+        <div className="absolute bg-white flex items-center justify-between px-12 py-4 right-0 top-0 w-full">
+          <div className="flex gap-2 items-center">
+            <div className="relative rounded-lg shrink-0 w-10 h-10">
+              <Image
+                src="/logo_icon.png"
+                alt="WizCommerce Logo"
+                width={40}
+                height={40}
+                className="rounded-lg object-cover"
+              />
+            </div>
+            <p className="font-['Satoshi',sans-serif] font-bold leading-9 text-2xl text-black">
+              WizCommerce
+            </p>
           </div>
-
-          <HeaderWrapper>
-            <div className="max-w-[900px] mx-auto w-full flex justify-between items-center">
-              <div className="flex gap-24 items-center">
-                <Link href="/" className="flex items-center gap-2">
-                  <FirecrawlIcon className="w-7 h-7 text-accent-black" />
-                  <FirecrawlLogo />
-                </Link>
+          <div className="flex items-center">
+            <div className="flex items-center pl-1.5 pr-0 py-0">
+              <div className="bg-[#4578c4] flex flex-col items-center justify-center relative rounded-lg shrink-0 w-8 h-8">
+                <div className="absolute flex flex-col font-['Satoshi',sans-serif] font-bold justify-center leading-none left-1/2 text-sm text-center text-white top-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap">
+                  <p className="leading-5">OP</p>
+                </div>
               </div>
-
-              <div className="flex gap-8">
-                <Link
-                  href="https://github.com/mendableai/open-lovable"
-                  target="_blank"
-                  className="contents"
-                >
-                  <ButtonUI variant="tertiary">
-                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                    </svg>
-                    Use this Template
-                  </ButtonUI>
-                </Link>
+              <div className="flex flex-col items-start relative rounded-tl rounded-tr shrink-0">
+                <div className="bg-white flex flex-col items-start justify-center relative rounded-lg shrink-0">
+                  <div className="flex items-center pl-3 pr-0 py-0 relative rounded-tl rounded-tr shrink-0 w-full">
+                    <div className="flex flex-col items-center justify-center px-0 py-2 relative shrink-0">
+                      <svg
+                        className="relative shrink-0 w-6 h-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </HeaderWrapper>
+          </div>
         </div>
 
         {/* Hero Section */}
-        <section className="overflow-x-clip" id="home-hero">
-          <div className="pt-28 lg:pt-254 lg:-mt-100 pb-115 relative" id="hero-content">
-            <HomeHeroPixi />
-            <HeroFlame />
-            <BackgroundOuterPiece />
-            <HomeHeroBackground />
+        <section
+          className="flex items-center justify-center min-h-screen pt-20"
+          id="home-hero"
+        >
+          <div className="flex flex-col gap-9 items-center w-full max-w-[812px] px-4">
+            {/* Welcome Text and Title */}
+            <div className="flex flex-col items-center w-full">
+              <div className="flex flex-col gap-4 items-center w-full">
+                {/* Welcome Text */}
+                <div className="flex gap-1 items-center justify-center flex-wrap">
+                  <div className="flex flex-col font-['Satoshi',sans-serif] font-bold justify-center leading-none relative shrink-0 text-[#8155d9] text-lg text-center whitespace-nowrap">
+                    <p className="leading-normal">
+                      <span>👋 </span>
+                      <span className="text-[#2d323a]">Welcome to </span>
+                    </p>
+                  </div>
+                  <div className="bg-white flex items-center justify-center px-2 py-0.5 relative rounded-[27px] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] shrink-0">
+                    <div className="flex flex-col font-['Satoshi',sans-serif] font-bold justify-center leading-none relative shrink-0 text-[#16885f] text-lg text-center whitespace-nowrap">
+                      <p className="leading-normal">AI powered </p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col font-['Satoshi',sans-serif] font-bold justify-center leading-none relative shrink-0 text-[#8155d9] text-lg text-center whitespace-nowrap">
+                    <p className="leading-normal">
+                      {" "}
+                      <span className="text-[#2d323a]">website builder</span>
+                    </p>
+                  </div>
+                </div>
 
-            <div className="relative container px-16">
-              <HomeHeroBadge />
-              <HomeHeroTitle />
-              
-              {/* Hero Input */}
-              <div className="mt-24">
-                <HeroInput />
+                {/* Main Title and Subtitle */}
+                <div className="flex flex-col gap-4 items-start w-full">
+                  <div className="flex flex-col items-center w-full">
+                    <div className="flex flex-col font-['Satoshi',sans-serif] font-bold justify-center leading-none relative shrink-0 text-[32px] text-[rgba(0,0,0,0.87)] text-center w-full">
+                      <p className="leading-normal whitespace-pre-wrap">
+                        Design your website the way you envision{" "}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="font-['Satoshi',sans-serif] font-normal leading-5 relative shrink-0 text-sm text-[rgba(0,0,0,0.6)] text-center w-full whitespace-pre-wrap">
+                    Shape your inspiration into ideal site.
+                  </p>
+                </div>
               </div>
+            </div>
+
+            {/* Hero Input - Keep as is */}
+            <div className="w-full max-w-[812px]">
+              <HeroInput />
             </div>
           </div>
         </section>
