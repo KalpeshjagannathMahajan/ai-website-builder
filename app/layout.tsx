@@ -3,9 +3,9 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-inter"
+  variable: "--font-inter",
 });
 
 const geistSans = localFont({
@@ -26,8 +26,17 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Open Lovable v3",
-  description: "Re-imagine any website in seconds with AI-powered website builder.",
+  title: "WizCommerce AI Powered Website Builder",
+  description:
+    "Re-imagine any website in seconds with AI-powered website builder.",
+  icons: {
+    icon: [
+      { url: "/logo_icon.png", sizes: "any" },
+      { url: "/logo_icon.png", type: "image/png" },
+    ],
+    apple: "/logo_icon.png",
+    shortcut: "/logo_icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -37,7 +46,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} font-sans`}>
+      <body
+        className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} font-sans`}
+      >
         {children}
       </body>
     </html>
