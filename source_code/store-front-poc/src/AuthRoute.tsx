@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useSelector } from 'react-redux';
 import NotAllowed from './NotAllowed';
 import constants from './utils/constants';
