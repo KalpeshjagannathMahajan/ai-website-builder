@@ -526,7 +526,7 @@ export default function HomePage() {
                         >
                           <HeroInputSubmitButton
                             dirty={url.length > 0}
-                            buttonText={isURL(url) ? "Scrape Site" : "Search"}
+                            buttonText={isURL(url) ? "Generate Site" : "Search"}
                             disabled={isSearching}
                           />
                         </div>
