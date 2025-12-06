@@ -241,7 +241,7 @@ export default function HomePage() {
               />
             </div>
             <p className="font-['Satoshi',sans-serif] font-bold leading-9 text-2xl text-black">
-              WizCommerce
+              WizGenie
             </p>
           </div>
           {/* <div className="flex items-center">
